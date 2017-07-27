@@ -1,0 +1,34 @@
+====================================================================================================
+2017-07-19 13:09:46 949912
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNDQwOTg2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NGQ2MmU1YTliMTVkYzViNTI3YjkxYzBjOThjNzRmZWI&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=fd3b441e77351525d74a2d9ddf812056&team_id=3
+CODE : B00001
+Warning : Parameter 4 to mod_Battle::_add_battle_process() expected to be a reference, value given in E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 39 
+Backtrace[2]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-19 13:16:11 954625
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNDQxMzcxIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZWVkZTMxNDJmOTVhMTBjZDA5MDhkOGQ4NThhNWY2ODk&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=68c35c509ab69e9d1b258bb79f8ca9b6&team_id=3
+CODE : B00001
+Warning : Parameter 4 to mod_Battle::_add_battle_process() expected to be a reference, value given in E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 40 
+Backtrace[2]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-19 13:17:50 472369
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Compile Error : Method Core_GameModel::__call() cannot take arguments by reference in E:\htdocs\yl_server\branch\core\Model.php on line 86 
+====================================================================================================
+2017-07-19 13:23:00 185014
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNDQxNzgwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YWRkN2Q0NjkyZDFlYmUzODU3MGYxYTk1NTcxYzc0MmM&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=c1081cf310c492956366d147bc463b7c&team_id=3
+CODE : B00001
+Notice : Undefined property: mod_Battle::$model in E:\htdocs\yl_server\branch\model\Battle.php on line 81 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 81 
+Backtrace[1]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[3]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 

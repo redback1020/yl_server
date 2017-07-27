@@ -1,0 +1,31 @@
+====================================================================================================
+2017-07-25 15:42:09 48045
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwOTY4NTI5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NTY2N2VjNTJhN2ZmYmYyZDIyNDFmYjdlZjdkZTg3MGQ&role_ids=1||&sign=cd3e55b9bec6d67a3d47796226137d63&team_id=3&trump_uuids=||29|30
+CODE : B00001
+Notice : Undefined index: element_2__num in E:\htdocs\yl_server\branch\model\Team.php on line 147 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Team.php on line 147 
+Backtrace[1]: (function) _set_team : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 19 
+Backtrace[3]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 15:45:01 354007
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00018
+User Error : Model Methon is Not Exist. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 76 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 392 
+Backtrace[2]: (function) _get_battle_team : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[3]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 48 
+Backtrace[4]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 15:45:40 414109
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: target_effect_id in E:\htdocs\yl_server\branch\model\Battle.php on line 587 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 587 
+Backtrace[1]: (function) _get_battle_team : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 48 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

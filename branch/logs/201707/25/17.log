@@ -1,0 +1,16 @@
+====================================================================================================
+2017-07-25 17:01:59 53085
+URL:/index.php/2144/Async/GameLog
+POST:createtime=1500973318&num=100|100&obj_id=exp|soul&operation=plus&sign=c0d90423d83c376b29a328f82acc10e7&type=source&user_id=6&way=1
+CODE : B00001
+Notice : Undefined variable: obj_name in E:\htdocs\yl_server\branch\controller\Async.php on line 60 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Async.php on line 60 
+Backtrace[1]: (function) actionGameLog : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 17:19:35 192074
+URL:/index.php/2144/Async/GameLog
+POST:createtime=1500974375&num=100|100&obj_id=exp|soul&operation=plus&sign=6b40a48cddad3e49f246029192d783b0&type=source&user_id=6&way=1
+CODE : B00001
+Notice : Undefined variable: obj_name in E:\htdocs\yl_server\branch\controller\Async.php on line 60 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Async.php on line 60 
+Backtrace[1]: (function) actionGameLog : E:\htdocs\yl_server\branch\index.php on line 76 

@@ -1,0 +1,16 @@
+====================================================================================================
+2017-07-24 15:59:26 707623
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : preg_grep() expects parameter 2 to be array, string given in E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[1]: (function) preg_grep : E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-24 15:59:29 520794
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : preg_grep() expects parameter 2 to be array, string given in E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[1]: (function) preg_grep : E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

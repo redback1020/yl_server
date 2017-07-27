@@ -1,0 +1,45 @@
+====================================================================================================
+2017-07-24 16:04:31 105433
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : preg_match(): Compilation failed: nothing to repeat at offset 1 in E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[1]: (function) preg_match : E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-24 16:07:10 514148
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : preg_match(): Compilation failed: nothing to repeat at offset 2 in E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[1]: (function) preg_match : E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-24 16:07:24 275634
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : preg_match(): Compilation failed: nothing to repeat at offset 5 in E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[1]: (function) preg_match : E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-24 16:08:30 34261
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : preg_match(): Compilation failed: nothing to repeat at offset 5 in E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[1]: (function) preg_match : E:\htdocs\yl_server\branch\controller\Test.php on line 47 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-24 16:11:51 164857
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 83 
+Backtrace[2]: (function) array_map : E:\htdocs\yl_server\branch\core\Model.php on line 173 
+Backtrace[3]: (function) _condition_segment : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\core\Model.php on line 125 
+Backtrace[5]: (function) _explain_condition : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 52 
+Backtrace[7]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

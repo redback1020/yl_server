@@ -1,0 +1,129 @@
+====================================================================================================
+2017-07-07 17:16:11 985197
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Class 'Redis' not found in E:\htdocs\yl_server\branch\core\Redis.php on line 9 
+Backtrace[0]: (function) db_connect : E:\htdocs\yl_server\branch\core\Base.php on line 276 
+Backtrace[1]: (function) load_redis : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:22:44 7931
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Class 'Redis' not found in E:\htdocs\yl_server\branch\core\Redis.php on line 9 
+Backtrace[0]: (function) db_connect : E:\htdocs\yl_server\branch\core\Base.php on line 276 
+Backtrace[1]: (function) load_redis : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:22:44 898451
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Class 'Redis' not found in E:\htdocs\yl_server\branch\core\Redis.php on line 9 
+Backtrace[0]: (function) db_connect : E:\htdocs\yl_server\branch\core\Base.php on line 276 
+Backtrace[1]: (function) load_redis : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:24:58 29545
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Class 'Redis' not found in E:\htdocs\yl_server\branch\core\Redis.php on line 9 
+Backtrace[0]: (function) db_connect : E:\htdocs\yl_server\branch\core\Base.php on line 276 
+Backtrace[1]: (function) load_redis : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:24:58 81889
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Class 'Redis' not found in E:\htdocs\yl_server\branch\core\Redis.php on line 9 
+Backtrace[0]: (function) db_connect : E:\htdocs\yl_server\branch\core\Base.php on line 276 
+Backtrace[1]: (function) load_redis : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:32:30 608916
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Redis::hset() in E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:33:15 484679
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Redis::hmset() in E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:33:52 324408
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Redis::hmset() in E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:34:37 974235
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Redis::hmset() in E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:34:58 428607
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Redis::hmset() in E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:35:25 65219
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Redis::hmset() in E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:50:45 42144
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Compile Error : Method Core_Redis::__call() must take exactly 2 arguments in E:\htdocs\yl_server\branch\core\Redis.php on line 32 
+====================================================================================================
+2017-07-07 17:52:41 4368
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : call_user_func_array() expects parameter 1 to be a valid callback, function 'hmset' not found or invalid function name in E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:53:08 587901
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Redis::hMset() expects exactly 2 parameters, 1 given in E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[1]: (function) hMset : E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:55:32 60765
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Redis::hMset() expects parameter 1 to be string, array given in E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[1]: (function) hMset : E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 17:55:54 914136
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Redis::hMset() expects exactly 2 parameters, 1 given in E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[1]: (function) hMset : E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

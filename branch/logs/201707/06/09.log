@@ -1,0 +1,33 @@
+====================================================================================================
+2017-07-06 09:47:19 694912
+URL:/index.php/2144/Auth/ForgetPassword
+POST:username=648125653%40qq.com&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MzA1NjM5In0.WyI4ODc2NzQ5Y2MyOGJiMmYwMTFjMWExMTNjNTFkY2ZhOTU5NWQ5NmE3YTc0ZGY3LjA0Mzc5NzgyIl0.M2RiMjM1MzAwZmQwYjBkNjM5ZDQ4YjNjZjE5ZTcwMjVkODNhZDYxMDE5YmIxNDBjOGI1N2I2OTkwOTdlNzFlNw&sign=f5e8d1f3eaf9e0f2f7175f65e73ce995485aa0c71782e4f99eb35f55802b2419
+CODE : B00001
+Warning : Illegal string offset 'last_send_time' in E:\htdocs\yl_server\branch\controller\Auth.php on line 172 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Auth.php on line 172 
+Backtrace[1]: (function) actionForgetPassword : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 09:51:44 414942
+URL:/index.php/2144/Auth/ForgetPassword
+POST:username=648125653%40qq.com&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MzA1OTA0In0.WyJiNmY1ZDJiOTIwNGRjZDk1MWJjNzI1ZWYzNmFlNjZkMTU5NWQ5N2IwNjM5ODIxLjI5NjY2NzUzIl0.ODdkODQ4NGZhODZhY2RhYTllMTAzZjk5OWM0YmQxNTBjY2VmNTQwMGZiNmE0NjU3MjMwZDIwOThiYjgxYWQyZA&sign=a099e222554585d4a6de791e6b15224aebe37c446b7125b9bfa044a4ef9a6792
+CODE : C00007
+User Error : 邮件已发送，如未收到邮件请稍后重试 in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 175 
+Backtrace[1]: (function) actionForgetPassword : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 09:52:27 366245
+URL:/index.php/2144/Async/SendForgetPwdMail
+POST:code=713121&email=648125653%40qq.com&sign=22b48a6714348a1d1504eda609d8074ac9a8ba36f9041e9828b67213024ba522
+CODE : B00001
+Warning : Missing argument 1 for Core_Response::show_error_code(), called in E:\htdocs\yl_server\branch\controller\Async.php on line 49 and defined in E:\htdocs\yl_server\branch\core\Response.php on line 88 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Response.php on line 88 
+Backtrace[1]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Async.php on line 49 
+Backtrace[2]: (function) actionSendForgetPwdMail : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 09:53:09 492732
+URL:/index.php/2144/Auth/ForgetPassword
+POST:username=648125653%40qq.com&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MzA1OTg5In0.WyJmMjMxMzJlZjVjMDg5MDBkNmZjN2MxY2E1YTliMjM5NjU5NWQ5ODA1NzY2ZGUxLjEyMzAwNTMzIl0.ZDhiYTY2YmY2OWI4OWZmZWQ2NDA0MmFjOTA5OTllZDNhYjI5NTYzY2YyZTI3OGYwOWE0OTlhYWU1YzQzY2IyMw&sign=029861123ce88c0095172ca6b91067d9f6e544485aa6e9be7c8102ee0816619b
+CODE : C00007
+User Error : 邮件已发送，如未收到邮件请稍后重试 in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 175 
+Backtrace[1]: (function) actionForgetPassword : E:\htdocs\yl_server\branch\index.php on line 76 

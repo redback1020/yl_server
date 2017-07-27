@@ -1,0 +1,20 @@
+====================================================================================================
+2017-07-24 14:25:21 269848
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Model::explain_condition() in E:\htdocs\yl_server\branch\controller\Test.php on line 48 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-24 14:34:37 710491
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 83 
+Backtrace[2]: (function) array_map : E:\htdocs\yl_server\branch\core\Model.php on line 159 
+Backtrace[3]: (function) _condition_segment : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\core\Model.php on line 111 
+Backtrace[5]: (function) _explain_condition : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 48 
+Backtrace[7]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

@@ -1,0 +1,22 @@
+==========================================================
+2017-06-22 10:52:59 339048
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 30 ==========================================================
+2017-06-22 10:53:18 545324
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 30 ==================================================
+2017-06-22 10:56:44 585653
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+==================================================
+2017-06-22 10:57:22 862704
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+==================================================
+2017-06-22 10:57:31 310097
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+======================================================================================================================================================
+2017-06-22 10:57:57 1914
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/red/index.php on line 30 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 30 

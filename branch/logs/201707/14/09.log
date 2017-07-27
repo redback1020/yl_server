@@ -1,0 +1,6 @@
+====================================================================================================
+2017-07-14 09:51:40 980319
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : syntax error, unexpected '–' (T_STRING) in E:\htdocs\yl_server\branch\controller\Test.php on line 70 

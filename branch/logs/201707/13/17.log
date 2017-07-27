@@ -1,0 +1,7 @@
+====================================================================================================
+2017-07-13 17:00:24 900154
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Model::explain_condition() in E:\htdocs\yl_server\branch\controller\Test.php on line 62 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

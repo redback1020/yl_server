@@ -1,0 +1,165 @@
+====================================================================================================
+2017-07-12 14:02:47 166996
+URL:/index.php/2144/Auth/Register
+POST:password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5ODM5MzY3In0.WyIxODZiZjk1Yjg3YzM4MmQ2NTk2ZmU2OTY5YzYyZmJlMzU5NjViYjg3MjczMGM5Ljc5NTM3MTc4Il0.ZTNmMzk4YzQ4OWU5MGYyOTdjMmMwYmM1OTUyMTVlMmQ&sign=27cd796f01abe9d75f78b73941330b23&username=648125653@qq.com
+CODE : C00003
+User Error : 账号用户名已存在 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 28 
+Backtrace[1]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:03:19 199777
+URL:/index.php/2144/Auth/Login
+POST:password=987654321&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5ODM5Mzk5In0.WyI2NGE0MzU0MTYyYjY4OWU5M2QwYjBlMGY5MjI0Njg5ZjU5NjViYmE3MmY2NDI2LjIyNTczMTU2Il0.MmY0ZTg4OTZiODkzODA4ODBmM2NjZWVhZWZiMDNjNTY&sign=9841008c4d5a6e6f007c1467e6a8fd1f&username=648125653@qq.com
+CODE : C00005
+User Error : 用户名或者密码错误 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 110 
+Backtrace[1]: (function) actionLogin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:04:40 979211
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODM5NDgwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YmVhMmZmNTY1MTkzODE4NDNiMGQwYzVmZjJhNjQxYWI
+CODE : B00001
+Notice : Trying to get property of non-object in E:\htdocs\yl_server\branch\core\Base.php on line 132 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Base.php on line 132 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 76 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\core\Base.php on line 374 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:05:25 160051
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=
+CODE : B00013
+User Error : Bad Request. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 126 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 76 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\core\Base.php on line 374 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:05:43 291343
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=
+CODE : B00013
+User Error : Bad Request. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 126 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 76 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\core\Base.php on line 374 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:06:21 39506
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=
+CODE : B00013
+User Error : Bad Request. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 126 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 76 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\core\Base.php on line 374 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:06:50 328614
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=
+CODE : B00013
+User Error : Bad Request. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 126 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 76 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\core\Base.php on line 374 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:07:16 123367
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Illegal string offset 'data' in E:\htdocs\yl_server\branch\controller\Test.php on line 104 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Test.php on line 104 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:09:56 367989
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODM5Nzk2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MmRjOWRjOTNiOGJmZTQwMDM1OWU2Mjk0ZTFiOTI2NDI
+CODE : B00001
+Error : Call to undefined method Core_Request::show_error_code() in E:\htdocs\yl_server\branch\controller\User.php on line 22 
+Backtrace[0]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:11:43 538192
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODM5OTAzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YzFmNGIxY2NmM2EyYjFhODg1NDA5MzU2YjFhNTRhYmI
+CODE : B00017
+User Error : Version Number Is Not Match. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\User.php on line 22 
+Backtrace[1]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:12:14 959337
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODM5OTM0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MDFhY2YzZjk0OWE4NTViZjgyYzM1ZmZhMDFlNzc4MmI
+CODE : B00017
+User Error : Version Number Is Not Match. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\User.php on line 22 
+Backtrace[1]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:12:34 362699
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODM5OTU0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.Zjk0ODBhZWEwZjkyMGYxNThkMTBhNjA0YzYwYjcwMDQ
+CODE : B00017
+User Error : Version Number Is Not Match. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\User.php on line 22 
+Backtrace[1]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:12:56 36161
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODM5OTc2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NjU3MGVhNTYwMzEyMDUwZjQwOGNjNDA3MjQ2ZDE2YzU
+CODE : B00017
+User Error : Version Number Is Not Match. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\User.php on line 22 
+Backtrace[1]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:14:24 248768
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQwMDY0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NmEwNjc1YTA4NmFhNjhkZjgzNmY5ZTQzMmNlYzYzNzQ
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_base` (`user_id`, `nickname`, `glod`, `ap`, `soul`, `level`, `exp`, `faith`, `non_faith`, `createtime`) VALUES ('6', 'aaa', '1000', '1000', '1000', '1', '0', '1', '0', '1499840064')
+Mysql Error : Table 'yl_develop_transit.user_base' doesn't exist  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\User.php on line 37 
+Backtrace[3]: (function) insert_user_base : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\User.php on line 26 
+Backtrace[5]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:28:12 35841
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQwODkyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NzczYTlhYjU0MGQ1ZDE2YWIxZGNlNmZmMWQ0MTBkMGE
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_base` (`user_id`, `nickname`, `glod`, `ap`, `soul`, `level`, `exp`, `faith`, `non_faith`, `createtime`) VALUES ('6', 'aaa', '1000', '1000', '1000', '1', '0', '1', '0', '1499840892')
+Mysql Error : Unknown column 'glod' in 'field list'  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\User.php on line 37 
+Backtrace[3]: (function) insert_user_base : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\User.php on line 26 
+Backtrace[5]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:29:16 528298
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQwOTU2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZjMyZDRhNzZiZGI1ZGQyMDg1YmFmMGU0YmZmMTk3ODU
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_base` (`user_id`, `nickname`, `glod`, `ap`, `soul`, `level`, `exp`, `faith`, `non_faith`, `createtime`) VALUES ('6', 'aaa', '1000', '1000', '1000', '1', '0', '1', '0', '1499840956')
+Mysql Error : Unknown column 'glod' in 'field list'  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\User.php on line 37 
+Backtrace[3]: (function) insert_user_base : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\User.php on line 26 
+Backtrace[5]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 14:29:43 274666
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQwOTgzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZjU5N2VlM2M0NzYxNTNlOWI1OWFhZGYwOGU1Mzg4NTE
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_base` (`user_id`, `nickname`, `gold`, `ap`, `soul`, `level`, `exp`, `faith`, `non_faith`, `createtime`) VALUES ('6', 'aaa', '1000', '1000', '1000', '1', '0', '1', '0', '1499840983')
+Mysql Error : Field 'id' doesn't have a default value  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\User.php on line 37 
+Backtrace[3]: (function) insert_user_base : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\User.php on line 26 
+Backtrace[5]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 

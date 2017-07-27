@@ -1,0 +1,34 @@
+====================================================================================================
+2017-07-24 11:24:09 984546
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined variable: aaa in E:\htdocs\yl_server\branch\core\Response.php on line 143 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Response.php on line 143 
+====================================================================================================
+2017-07-24 11:29:11 917889
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+User Notice : 333 in E:\htdocs\yl_server\branch\core\Response.php on line 142 
+Backtrace[1]: (function) trigger_error : E:\htdocs\yl_server\branch\core\Response.php on line 142 
+====================================================================================================
+2017-07-24 11:32:18 325086
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Invalid error type specified in E:\htdocs\yl_server\branch\core\Common.php on line 74 
+Backtrace[1]: (function) trigger_error : E:\htdocs\yl_server\branch\core\Common.php on line 74 
+Backtrace[2]: (function) throw_exception : E:\htdocs\yl_server\branch\core\Base.php on line 160 
+Backtrace[3]: (function) base_shutdown_callback : E:\htdocs\yl_server\branch\core\Response.php on line 149 
+Backtrace[5]: (function) array_map : E:\htdocs\yl_server\branch\core\Response.php on line 149 
+====================================================================================================
+2017-07-24 11:34:30 622699
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+User Notice : 333 in E:\htdocs\yl_server\branch\core\Common.php on line 74 
+Backtrace[1]: (function) trigger_error : E:\htdocs\yl_server\branch\core\Common.php on line 74 
+Backtrace[2]: (function) throw_exception : E:\htdocs\yl_server\branch\core\Base.php on line 160 
+Backtrace[3]: (function) base_shutdown_callback : E:\htdocs\yl_server\branch\core\Response.php on line 149 
+Backtrace[5]: (function) array_map : E:\htdocs\yl_server\branch\core\Response.php on line 149 

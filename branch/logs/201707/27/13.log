@@ -1,0 +1,8 @@
+====================================================================================================
+2017-07-27 13:50:10 81728
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : array_push() expects parameter 1 to be array, null given in E:\htdocs\yl_server\branch\controller\Test.php on line 78 
+Backtrace[1]: (function) array_push : E:\htdocs\yl_server\branch\controller\Test.php on line 78 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

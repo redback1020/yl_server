@@ -1,0 +1,9 @@
+====================================================================================================
+2017-07-06 14:35:30 950932
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Array to string conversion in E:\htdocs\yl_server\branch\libraries\WordFilter.php on line 53 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\libraries\WordFilter.php on line 53 
+Backtrace[1]: (function) filter : E:\htdocs\yl_server\branch\controller\Test.php on line 61 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

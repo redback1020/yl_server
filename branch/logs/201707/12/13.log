@@ -1,0 +1,33 @@
+====================================================================================================
+2017-07-12 13:11:44 625652
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  SELECT `user_id`,`trump_id` FROM `user_trump` WHERE `user_id` = 100
+Mysql Error : Table 'yl_develop_main.user_trump' doesn't exist  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 189 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\model\Trump.php on line 64 
+Backtrace[3]: (function) get_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 13:47:16 960931
+URL:/index.php/2144/Client/StaticData
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5ODM4NDM2In0.WyIzNjgzMGVjNTE0N2MxM2IwNTYzN2ZmM2Y5NmZhMmM3NTU5NjViN2U0ZTQ2N2E4LjczMzA0MDcxIl0.NWExN2ZkYTFlNDUwMWYxYWQ5ZTRlOWEzMmZmMGQ5YzE&sign=d5f108d8cb1d8bc8e8a1265d540227cc
+CODE : B00008
+User Error : Token Is Invalid. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 65 
+Backtrace[1]: (function) parse_token : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 96 
+Backtrace[2]: (function) get_token_payload : E:\htdocs\yl_server\branch\core\Base.php on line 376 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 13:48:53 353708
+URL:/index.php/2144/Client/StaticData
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5ODM4NTMzIn0.WyJjZTljMGIyYjViYTM5ODQ3NTU3NzFhMmY0ZThkNWFkODU5NjViODQ1NTRjZmU0LjY2NjUwOTE3Il0.YmE3NDg0YWQ3MDA0YzhmNjAyNWNjOTA5MjljNmUzNzE&sign=b73524c88abd7d101a9da6213702eab9
+CODE : B00008
+User Error : Token Is Invalid. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 65 
+Backtrace[1]: (function) parse_token : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 96 
+Backtrace[2]: (function) get_token_payload : E:\htdocs\yl_server\branch\core\Base.php on line 376 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 

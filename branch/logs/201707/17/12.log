@@ -1,0 +1,47 @@
+====================================================================================================
+2017-07-17 12:37:51 512248
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjY2MjcxIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NDUwNzEyMDQxM2ZhZmEzZDhlZTZmZDM0MmM0YWVhNmQ
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 379 
+Backtrace[1]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 12:39:58 843452
+URL:/index.php/2144/User/IntoGame
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjY2Mzk4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YmZhZmFiMGQ0N2EyNmIwNWFjMjAzOThmNjczZmQ5MTk
+CODE : B00001
+Notice : Undefined index: strengthen_level_incr in E:\htdocs\yl_server\branch\model\Role.php on line 29 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 29 
+Backtrace[1]: (function) _add_role : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 44 
+Backtrace[3]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\User.php on line 37 
+Backtrace[5]: (function) actionIntoGame : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 12:43:52 78962
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to undefined method ctr_Test::get_model() in E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[0]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 12:45:19 928194
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Array to string conversion in E:\htdocs\yl_server\branch\model\Static.php on line 91 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Static.php on line 91 
+Backtrace[1]: (function) _row : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 12:49:29 37312
+URL:/index.php/2144/Role/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjY2OTY4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ODI1MzEyNzFhMzIxODY0NTU0ZmM2YWMyMzgzMjQyODY&role_id=1&sign=33dd77b37812c3ac7b7a9813831115c2&soul=100
+CODE : B00001
+Notice : Undefined index: max_strengthen_level in E:\htdocs\yl_server\branch\model\Role.php on line 89 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 89 
+Backtrace[1]: (function) _strengthen_expincr : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 19 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 

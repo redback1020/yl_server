@@ -1,0 +1,58 @@
+====================================================================================================
+2017-07-18 13:00:29 296656
+URL:/index.php/2144/Role/SetEquip
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU0MDI5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZWU2NjYxNTM1ZjBkMzA4ZWVhOTk5OTgwOTQwZDk2NDY&equip_index=1&equop_uuid=d21d8501-6b75-11e7-845d-484d7ecbc8b7&role_id=1&sign=f6afb7cc8357ead8a865b82b39fc0e4a
+CODE : B00001
+Notice : Undefined index: role_id in E:\htdocs\yl_server\branch\model\Role.php on line 253 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 253 
+Backtrace[1]: (function) _set_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 54 
+Backtrace[3]: (function) actionSetEquip : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 13:30:09 946733
+URL:/index.php/2144/Role/SetEquip
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU1ODA5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MDBiOWEwZDBjYzE0ZGI0MjRjYzY4MTk1YzQ2MzI1MTc&equip_index=1&equop_uuid=d21d8501-6b75-11e7-845d-484d7ecbc8b7&role_id=1&sign=7531412d3cd38ca17d4187739f04eb0e
+CODE : B00006
+SUB INFO :  UPDATE `user_role_equip` SET `role_id` = '1', `equip_index` = '1', `updatetime` = '1500355809' WHERE `equip_uuid` = 'd21d8501-6b75-11e7-845d-484d7ecbc8b7' AND `user_id` = '6' AND `updatetime` = '1500353626'
+Mysql Error : Table 'yl_develop_main.user_role_equip' doesn't exist  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 270 
+Backtrace[2]: (function) update : E:\htdocs\yl_server\branch\model\Role.php on line 284 
+Backtrace[3]: (function) _set_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 54 
+Backtrace[5]: (function) actionSetEquip : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 13:40:10 803748
+URL:/index.php/2144/Role/SetEquip
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU2NDEwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NDM0NjE5NzVmNzAxNTMwODVjNWRiZjAwZTMwMTIxNTQ&equip_index=1&equop_uuid=2d95f52f-6b75-11e7-845d-484d7ecbc8b7&role_id=1&sign=cc8fa1bf4b0b17aa2df04a28b12150cd
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Role.php on line 256 
+Backtrace[1]: (function) _set_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 54 
+Backtrace[3]: (function) actionSetEquip : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 13:41:12 299842
+URL:/index.php/2144/Role/SetEquip
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU2NDcyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MmNmNTBmYTkxMzNjMDdiMDg0YjFiMTkzYzI2Y2FhZDU&equip_index=1&equop_uuid=2d95f52f-6b75-11e7-845d-484d7ecbc8b7&role_id=1&sign=21c43939b8802faa08137eaad484d8a4
+CODE : B00006
+SUB INFO :  SELECT `equip_uuid`,`user_id`,`equip_id`,`equip_index`,`role_id`,`updatetime`,`strengthen_level`,`strengthen_exp` FROM `user_equip_base` WHERE `user_id` = '6' AND `role_id` = 1 AND `equop_index` = 1
+Mysql Error : Unknown column 'equop_index' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 190 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\model\Role.php on line 227 
+Backtrace[3]: (function) _get_role_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Role.php on line 271 
+Backtrace[5]: (function) _set_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 54 
+Backtrace[7]: (function) actionSetEquip : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 13:46:13 554986
+URL:/index.php/2144/Role/SetEquip
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU2NzczIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZjQ1MDY2YjA0ZTRjYWU5OWVlZWJhNzkzNzY4NzVlMzI&equip_index=1&equop_uuid=2d95f52f-6b75-11e7-845d-484d7ecbc8b7&role_id=1&sign=2b5ff9eaad33a2b72419e3a0ffc90ef7
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Role.php on line 256 
+Backtrace[1]: (function) _set_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 54 
+Backtrace[3]: (function) actionSetEquip : E:\htdocs\yl_server\branch\index.php on line 76 

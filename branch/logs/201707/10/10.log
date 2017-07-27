@@ -1,0 +1,84 @@
+====================================================================================================
+2017-07-10 10:07:54 212087
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method load_redis is not exists in E:\htdocs\yl_server\branch\model\Static.php on line 46 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 68 
+Backtrace[1]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 10:08:14 979512
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method load_redis is not exists in E:\htdocs\yl_server\branch\model\Static.php on line 44 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[1]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 10:08:56 535023
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method load_redis is not exists in E:\htdocs\yl_server\branch\model\Static.php on line 44 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[1]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 10:09:54 73878
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method load_redis is not exists in E:\htdocs\yl_server\branch\model\Static.php on line 47 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 69 
+Backtrace[1]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 10:10:07 490998
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method load_redis is not exists in E:\htdocs\yl_server\branch\model\Static.php on line 49 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 71 
+Backtrace[1]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 10:34:36 615196
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method load_redis is not exists in E:\htdocs\yl_server\branch\model\Static.php on line 46 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 68 
+Backtrace[1]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 10:35:43 437382
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method load_redis is not exists in E:\htdocs\yl_server\branch\model\Static.php on line 47 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 69 
+Backtrace[1]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 10:36:22 50037
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method load_redis is not exists in E:\htdocs\yl_server\branch\model\Static.php on line 47 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 69 
+Backtrace[1]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 10:38:15 547198
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+ in E:\htdocs\yl_server\branch\core\Redis.php on line 11 
+Backtrace[1]: (function) connect : E:\htdocs\yl_server\branch\core\Redis.php on line 11 
+Backtrace[2]: (function) db_connect : E:\htdocs\yl_server\branch\core\Base.php on line 274 
+Backtrace[3]: (function) load_redis : E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[4]: (function) all_role_base : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

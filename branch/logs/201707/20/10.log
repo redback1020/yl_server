@@ -1,0 +1,124 @@
+====================================================================================================
+2017-07-20 10:02:57 971286
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE2MTc3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NTdmNWU4MTRjMmFhNDhhM2I0MTJiMDQ5ZmQwYTkzNzk&goods_id=3&num=1&sign=f6365e42f10bd069aaf77e34d06631e7
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Store.php on line 57 
+Backtrace[1]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[3]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 10:08:18 195362
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE2NDk4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MmUyZjBiMDQ3MDg4ZWQ5MWJkM2RhZDYxOGVjMDQ1ZmE&goods_id=4&num=1&sign=9d394beac0f3e0c4003e48ad71a7fece
+CODE : B00001
+Notice : Undefined offset: 1 in E:\htdocs\yl_server\branch\model\Store.php on line 182 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Store.php on line 182 
+Backtrace[1]: (function) _get_goods_items : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 64 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 10:09:33 872275
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE2NTczIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NGY5NzNjZTU2ZDVhMThlM2JkNDc4NDFkOWRkZWJjNGI&goods_id=4&num=1&sign=23a58de62f52c2e91fa836aeae3337f7
+CODE : B00006
+SUB INFO :  SELECT COUNT(`id`) FROM `user_trump_base` WHERE `user_id` = '6'
+Mysql Error : Unknown column 'id' in 'field list'  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 355 
+Backtrace[2]: (function) count : E:\htdocs\yl_server\branch\model\Trump.php on line 90 
+Backtrace[3]: (function) _trump_count : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 16 
+Backtrace[5]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 106 
+Backtrace[7]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[8]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[9]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 10:10:13 981876
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE2NjEzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NmY0ZGUwMWZhMWY5ZTAyZWZkYTRkN2RlMzc4NmI5MDM&goods_id=4&num=1&sign=4a2566d64d6ff9ccf9f39a7040fe022e
+CODE : B00006
+SUB INFO :  SELECT * FROM `static_trump_evolution_upgrade` WHERE `element` = '1' AND `rarity` = 'SSR' AND `level_id` = '1' LIMIT 1
+Mysql Error : Unknown column 'element' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 190 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\core\DB.php on line 217 
+Backtrace[3]: (function) select_row : E:\htdocs\yl_server\branch\model\Static.php on line 91 
+Backtrace[4]: (function) _row : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[5]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 21 
+Backtrace[6]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[7]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 106 
+Backtrace[8]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[9]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[10]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 10:16:04 179572
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE2OTY0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NzlkMjQ1ZGQxODA3NGY3ODZkNTUwYWQ4MWY3NjFmNzI&goods_id=4&num=1&sign=d6ed0294e69b0adb86fd6a147284c2eb
+CODE : B00006
+SUB INFO :  SELECT * FROM `static_trump_evolution_upgrade` WHERE `element` = '1' AND `rarity` = 'SSR' AND `level_id` = '1' LIMIT 1
+Mysql Error : Unknown column 'element' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 190 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\core\DB.php on line 217 
+Backtrace[3]: (function) select_row : E:\htdocs\yl_server\branch\model\Static.php on line 91 
+Backtrace[4]: (function) _row : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[5]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 21 
+Backtrace[6]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[7]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 106 
+Backtrace[8]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[9]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[10]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 10:16:38 372429
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE2OTk4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YjU5YzRjZmRjZDYzZjJhOWNkMzI0ZjMzYzllNWE1ZDI&goods_id=4&num=1&sign=a478e2c92571729b33864bbd303002d3
+CODE : B00001
+Warning : array_combine(): Both parameters should have an equal number of elements in E:\htdocs\yl_server\branch\model\Static.php on line 85 
+Backtrace[1]: (function) array_combine : E:\htdocs\yl_server\branch\model\Static.php on line 85 
+Backtrace[2]: (function) _row : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[3]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 21 
+Backtrace[4]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[5]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 106 
+Backtrace[6]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[7]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[8]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 10:18:43 51763
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE3MTIzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NjU3MmFiZDc5YTQ2NjQ0NDkwYWFlZmEzMjE5NTEwYjg&goods_id=4&num=1&sign=f82f433798cf4cd76be938a6a72d4017
+CODE : B00018
+User Error : Model Methon is Not Exist. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 76 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 112 
+Backtrace[2]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[3]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[4]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 10:19:35 732428
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE3MTc1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NDFjYjM2MzJkNzNiN2E2Yjk3NzU2ZWUzNWQyMjcxNmQ&goods_id=4&num=1&sign=78eb38ccd1147034359bab09ff9ad120
+CODE : B00001
+Notice : Undefined index: parameter_1 in E:\htdocs\yl_server\branch\model\User.php on line 360 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\User.php on line 360 
+Backtrace[1]: (function) _add_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 112 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 10:20:25 578271
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE3MjI1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZGNiMjA3ZThjMzg5OGM0YzA1ZWRhMmI4NmFjNzRjN2Q&goods_id=4&num=1&sign=b34832da0d255775ee3e0826e442ef37
+CODE : B00001
+Notice : Undefined index: parameter_1 in E:\htdocs\yl_server\branch\model\User.php on line 360 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\User.php on line 360 
+Backtrace[1]: (function) _add_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 112 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 

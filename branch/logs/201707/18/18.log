@@ -1,0 +1,285 @@
+====================================================================================================
+2017-07-18 18:08:20 526217
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzcyNTAwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.Zjk4ZmM1Njc1NmU5Yzc2NjVjNmMzY2VjOWViYzc2MWQ&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=66e3623c8d14f9a391dbcd6a54dc08f3&team_id=3
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 23 
+Backtrace[1]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 18 
+Backtrace[2]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 11 
+Backtrace[3]: (function) __get : E:\htdocs\yl_server\branch\model\Battle.php on line 26 
+Backtrace[4]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[5]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[6]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:12:25 661907
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzcyNzQ1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MDA4MDNkOThhNjgzMzAzNjMyMTBmYzdlM2IwMjgzNDQ&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=43da37e4c905724012472eb11a4ea7b9&team_id=3
+CODE : B00006
+SUB INFO :  SELECT `user_id`,`last_event_id` FROM `user_map_base` WHERE `user_id` = '6' LIMIT 1
+Mysql Error : Unknown column 'last_event_id' in 'field list'  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 190 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\core\DB.php on line 217 
+Backtrace[3]: (function) select_row : E:\htdocs\yl_server\branch\model\User.php on line 295 
+Backtrace[4]: (function) _get_map : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[5]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 26 
+Backtrace[6]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[7]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[8]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:13:16 508557
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzcyNzk2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YTM5NTAzNzNjZWU1ZWFjZjY4NzkzOThkN2Y4ODMxZDA&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=92bf117cbfc876e58bc31fbb7b2e1c39&team_id=3
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Battle.php on line 126 
+Backtrace[1]: (function) _verify_map : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 47 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:13:41 289527
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzcyODIxIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZmM2NDg2NGQzOGMzMTQ1M2NjZDE5NTU3MjI0MzgwMWQ&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=77d1fd6f9e2cdafaf795e1dd6e502b89&team_id=3
+CODE : B00001
+Error : 前置地图不对 in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Battle.php on line 126 
+Backtrace[1]: (function) _verify_map : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 47 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:14:31 741551
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzcyODcxIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YWRiMjFmNGM4NjY2MWZhOTVkYjc3MWIxNmQ1Y2ZhMjM&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=6b6ad87a39a47c4b7f4b8469affa4664&team_id=3
+CODE : B00001
+Error : map 前置 prev_event_id >  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Battle.php on line 126 
+Backtrace[1]: (function) _verify_map : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 47 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:15:44 532241
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzcyOTQ0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NjlhY2NjOGE5MWEwNzhiMDhlNjk1ZTc0YzMyMGFmOWI&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=ead8a0512a1ffa20e24150a07a7cb999&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[1]: (function) _verify_explore : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 51 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:16:18 762361
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzcyOTc4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.N2IzYTJlYzUzMzgzNTcyOWU0OTc3NDMxOTRjOGUzOTY&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=ebd3d94ebdd58254b851a4e418f5b709&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[1]: (function) _verify_explore : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 51 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:16:19 163399
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzcyOTc5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YWVmYjkzMTBlNzNlNjEzMmQxYzdiODY0YTEyZDcwMzQ&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=e32e72ed80781ae845cf8fa76c1d1d22&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[1]: (function) _verify_explore : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 51 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:17:10 953052
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczMDMwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MWI5Mjg4ZmVmNWFlM2IwYWE3ZjUyYWFhMjVkZmMyYzQ&battle_type=event&event_id=1&explore_id=1&map_id=1&sign=6fe02cf43c693f83c0996397b571843d&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[1]: (function) _verify_explore : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 51 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:17:44 456762
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczMDY0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MThkYTQ4Mzc2NTdmNWYwODdhOTFmYTYyYTE0NThkOTM&battle_type=event&event_id=101&explore_id=1&map_id=1&sign=534f363045ab4986d33896e1699ff519&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[1]: (function) _verify_explore : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 51 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:18:05 509212
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczMDg1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.Y2I4ZjhjNjgzYWQwMzA4MWY3N2FiN2U0YjRlNTdjOGE&battle_type=event&event_id=1&explore_id=101&map_id=1&sign=1fc89ccfa2aba89dcef321bcac4c8dea&team_id=3
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Battle.php on line 187 
+Backtrace[1]: (function) _verify_event : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 58 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:19:06 716376
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczMTQ2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZmZhYTVkMjgzNjA3ZDk1MzViMjg4N2VmMGY0ZjM2MDQ&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=e839886ba5839c15f93f25198fc36b72&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 188 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 188 
+Backtrace[1]: (function) _verify_event : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 58 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:19:50 101329
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczMTg5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NTI0MGFkMDkxMDQ3YjBhNDA4MjViOTQzZjdhOTUzYzI&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=d8e8799ff22905da1337bf1c80be182e&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 188 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 188 
+Backtrace[1]: (function) _verify_event : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 58 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:23:16 534069
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczMzk2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NjQ1NDU0ZTdjZGYyN2M3OTBmOGNkMGYwNDIyZTY5ZjI&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=50ebd5ba959919a26a9ad3d0a243ead5&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 188 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 188 
+Backtrace[1]: (function) _verify_event : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 58 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:25:22 76273
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczNTIxIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YjEyYzRiYmJkOGQ0MWIyMzQyMmQxMjg2YWU2NzkzYmI&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=84af3bf0d7158b7afe05fcf2b1bdc2ad&team_id=3
+CODE : B00001
+Notice : Undefined index: pre_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 187 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 187 
+Backtrace[1]: (function) _verify_event : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 58 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:26:22 513294
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczNTgyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MjBlYTEyNDQwZjczNDg1ZWQxMDQ1Zjk5M2E5Y2E0NjE&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=62a5263a981479e1cbadbbfa185749d7&team_id=3
+CODE : B00001
+Notice : Undefined index: prev_event_id in E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 158 
+Backtrace[1]: (function) _verify_explore : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 51 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:26:36 5254
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczNTk2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NGY4M2NjMjY4MzlmYTIwYWUxYzE1ZmNhYmFhYjljYjQ&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=55a07133e6e9c5574b1e8348f0fc74dc&team_id=3
+CODE : B00001
+Notice : Undefined index: explore_type in E:\htdocs\yl_server\branch\model\Battle.php on line 193 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 193 
+Backtrace[1]: (function) _verify_event : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 58 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:26:37 569859
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczNTk3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MDUyMDQwZDE2ZjA3NmQzYjNjZmFiMTg5MzA4MzgyMjY&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=72bcbb9710baa635d32cdfd014412342&team_id=3
+CODE : B00001
+Notice : Undefined index: explore_type in E:\htdocs\yl_server\branch\model\Battle.php on line 193 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 193 
+Backtrace[1]: (function) _verify_event : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 58 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:27:18 513136
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczNjM4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.Y2Q3MjM5MGE5ODJjMGY2OTUxMWYzMWVkYjFjZWJmOWI&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=c7c9a0c41eb9a6482ebf6cb4df588e60&team_id=3
+CODE : B00001
+Notice : Undefined index: confition in E:\htdocs\yl_server\branch\model\Battle.php on line 195 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 195 
+Backtrace[1]: (function) _verify_event : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 58 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:27:35 40992
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczNjU1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YzgyODRlYzhhYTk0NTc3MjE1ZjNjZjQ4NTYwYjNhYWU&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=f97d6d39b2e0285663043c0487b2ab93&team_id=3
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_battle_process` (`user_id`, `battle_type`, `map_id`, `explore_id`, `event_id`, `team_id`, `hour`, `day`, `weekday`, `status`, `updatetime`, `createtime`) VALUES ('6', 'event', '1', '101', '10101', '3', '18', '20170718', '3', '1', '0', '1500373655')
+Mysql Error : Field 'id' doesn't have a default value  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 318 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\Battle.php on line 73 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:30:05 415
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczODA0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MzE2MWVjOWU0ODU5NGUwYjk2NDZkOWFmZTE5ZGM3MzE&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=7b4b148102c904aa59e2977571a00a3b&team_id=3
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_battle_process` (`user_id`, `battle_type`, `map_id`, `explore_id`, `event_id`, `team_id`, `hour`, `day`, `weekday`, `status`, `updatetime`, `createtime`) VALUES ('6', 'event', '1', '101', '10101', '3', '18', '20170718', '3', '1', '0', '1500373805')
+Mysql Error : Out of range value for column 'day' at row 1  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 318 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\Battle.php on line 73 
+Backtrace[3]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:30:34 197946
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczODM0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NWVjNTVlNzYyNTU5YWM4ZTk1YzUzZDczY2QzMGIzYjg&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=cc777a6e8718be709c5f4a70a337c300&team_id=3
+CODE : B00001
+Error : Call to undefined method Core_Model::get_team_for_battle() in E:\htdocs\yl_server\branch\controller\Battle.php on line 41 
+Backtrace[0]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:30:53 433905
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczODUzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YmU4NjI1MWU5MjBjNWE0NGEwYWI1ZTdjMzFkOWRmZmI&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=05b5e94047237a6d98a5c1d755b03774&team_id=3
+CODE : B00018
+User Error : Model Methon is Not Exist. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 76 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 41 
+Backtrace[2]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 18:31:09 12491
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzczODY4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.Y2Q5NjlhYTZiNDZkM2Y2MmYwNTJjN2FiZDBlMDBjMGY&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=467039793962a78e19fc1815021abd70&team_id=3
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Battle.php on line 36 
+Backtrace[1]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 37 
+Backtrace[3]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 

@@ -1,0 +1,20 @@
+====================================================================================================
+2017-07-21 19:00:16 355452
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 65 
+Backtrace[1]: (function) _detract_property : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 38 
+Backtrace[3]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-21 19:02:20 321876
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 65 
+Backtrace[1]: (function) _detract_property : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 46 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

@@ -1,0 +1,28 @@
+====================================================================================================
+2017-07-20 18:02:16 9994
+URL:/index.php/2144/Trump/Decompose
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTQ0OTM1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NDM2NDc5N2RmNTZmNmMyNzM4MzI0NTExZmQwOTE3Zjg&sign=77b19513d378762d22e179f3fa6111c2&trump_uuid=618f1ff0-6cf3-11e7-845d-484d7ecbc8b7
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_item_base` (`user_id`, `item_id`, `item_type`, `num`, `updatetime`) VALUES ('6', '1', '0', '10', '1500544936')
+Mysql Error : Field 'id' doesn't have a default value  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 318 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\User.php on line 341 
+Backtrace[3]: (function) _increase_item : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 309 
+Backtrace[5]: (function) decompose : E:\htdocs\yl_server\branch\controller\Trump.php on line 88 
+Backtrace[6]: (function) actionDecompose : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 18:03:20 508594
+URL:/index.php/2144/Trump/Decompose
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTQ1MDAwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.OGRiNTQwYmQzNWE2OTllN2UwYzgwNjhmYWVmZDIyNTM&sign=73871b5ebd607a20a1732fd25941f274&trump_uuid=618f1ff0-6cf3-11e7-845d-484d7ecbc8b7
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_item_base` (`user_id`, `item_id`, `item_type`, `num`, `updatetime`) VALUES ('6', '1', '0', '10', '1500545000')
+Mysql Error : Field 'createtime' doesn't have a default value  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 318 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\User.php on line 341 
+Backtrace[3]: (function) _increase_item : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 309 
+Backtrace[5]: (function) decompose : E:\htdocs\yl_server\branch\controller\Trump.php on line 88 
+Backtrace[6]: (function) actionDecompose : E:\htdocs\yl_server\branch\index.php on line 76 

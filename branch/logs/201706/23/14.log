@@ -1,0 +1,56 @@
+====================================================================================================
+2017-06-23 14:28:32 742738
+URL:/red/index.php/aaa/Test/index?a=1&rrr=3?sss=444
+POST:
+CODE : B00001
+User Error : System Error. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 36 
+Backtrace[1]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/core/Base.php on line 11 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/index.php on line 55 
+====================================================================================================
+2017-06-23 14:29:38 15302
+URL:/red/index.php/aaa/Test/Index?a=1&rrr=3?sss=444
+POST:
+CODE : B00001
+User Error : System Error. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 36 
+Backtrace[1]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/core/Base.php on line 11 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/index.php on line 55 
+====================================================================================================
+2017-06-23 14:31:18 547381
+URL:/red/index.php/aaa/Test/Index?a=1&rrr=3?sss=444
+POST:
+CODE : B00001
+User Error : System Error. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 36 
+Backtrace[1]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/core/Base.php on line 11 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/index.php on line 55 
+====================================================================================================
+2017-06-23 14:31:19 521739
+URL:/red/index.php/aaa/Test/Index?a=1&rrr=3?sss=444
+POST:
+CODE : B00001
+User Error : System Error. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 36 
+Backtrace[1]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/core/Base.php on line 11 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/index.php on line 55 
+====================================================================================================
+2017-06-23 14:43:09 43929
+URL:/red/index.php/aaa/Test/Index?a=1&rrr=3?sss=444
+POST:
+CODE : B00001
+Warning : require_once(/Users/redback/Documents/MAMP PRO/red/core/Exception.php): failed to open stream: No such file or directory in /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 27 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 27 
+Backtrace[1]: (function) require_once : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 27 
+Backtrace[2]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/core/Base.php on line 11 
+Backtrace[3]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/index.php on line 55 
+====================================================================================================
+2017-06-23 14:44:05 787643
+URL:/red/index.php/aaa/Test/Index?a=1&rrr=3?sss=444
+POST:
+CODE : B00001
+Notice : Undefined property: Core_Request::$_enable_xss in /Users/redback/Documents/MAMP PRO/red/core/Request.php on line 102 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/core/Request.php on line 102 
+Backtrace[1]: (function) _fetch_from_array : /Users/redback/Documents/MAMP PRO/red/core/Request.php on line 57 
+Backtrace[2]: (function) get : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 10 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 55 

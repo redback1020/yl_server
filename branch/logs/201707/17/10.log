@@ -1,0 +1,93 @@
+====================================================================================================
+2017-07-17 10:09:47 177764
+URL:/index.php/2144/Role/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU3Mzg2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YzczOTg4OTY3ZThjMWE4ZTZmOTFlYjQwNDMwNDRlMjI&role_id=2&sign=f6c47be3fc01e8497ddf0b6c280c91f7&soul=100
+CODE : B00001
+Error : Call to undefined method ctr_Role::get_model() in E:\htdocs\yl_server\branch\controller\Role.php on line 13 
+Backtrace[0]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:10:25 320182
+URL:/index.php/2144/Role/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU3NDI1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZDhiNTg2YTQ3NGJjOGM1NmU4ODU3NmE1ZjNiYWM2ZGI&role_id=2&sign=41814bb8badb9764459e7c3c5aa4cd63&soul=100
+CODE : B00001
+Notice : Undefined index: role_strengthen in E:\htdocs\yl_server\branch\controller\Role.php on line 16 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Role.php on line 16 
+Backtrace[1]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:11:36 689343
+URL:/index.php/2144/Role/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU3NDk2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZTQyNmY0NjlhN2M1YjlmMjdmZDFmMzllZGUwODBiYjk&role_id=2&sign=0a004737e7548b8624d360f3181ad9ec&soul=100
+CODE : B00001
+Notice : Undefined index: strengthen_exp in E:\htdocs\yl_server\branch\model\Role.php on line 81 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 81 
+Backtrace[1]: (function) _strengthen_expincr : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 19 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:12:24 443666
+URL:/index.php/2144/Role/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU3NTQ0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZmVhNDg3NjU2NzVmZDdhMGYxZDk5N2YwYjZmMWMxMGE&role_id=2&sign=115f6b3bc95c99ce3d81a68222d023d0&soul=100
+CODE : B00001
+Notice : Undefined index: strengthen_exp in E:\htdocs\yl_server\branch\model\Role.php on line 81 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 81 
+Backtrace[1]: (function) _strengthen_expincr : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 19 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:13:41 755077
+URL:/index.php/2144/Role/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU3NjIxIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YWQxNDkxMDM1ODdmOWJlNDFlYzQwM2QyYjkzNzAzOWE&role_id=2&sign=92fcb74292d99947cf19ee4902f5b705&soul=100
+CODE : B00001
+Notice : Undefined index: strengthen_exp in E:\htdocs\yl_server\branch\model\Role.php on line 81 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 81 
+Backtrace[1]: (function) _strengthen_expincr : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 19 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:24:22 899814
+URL:/index.php/2144/Role/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU4MjYyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MzI2YjZlZTQ1MjgzNDQzNzY3ZTljZjU1ODI5OGFiNGY&role_id=1&sign=081da1e1ba127b54a677f11442858ad4
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 76 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 36 
+Backtrace[2]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:26:12 33963
+URL:/index.php/2144/Role/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU4MzcyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YjBlYzU0ZWFlNTM0ZTFjZTcyOWNkYzQxZGQ3ODg3MjI&role_id=1&sign=af6803893d6380ba84bc5b53fdf6095e
+CODE : B00018
+User Error : Model Methon is Not Exist. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 76 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 36 
+Backtrace[2]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:26:47 178023
+URL:/index.php/2144/Role/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU4NDA3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YjVjMTAwN2NhZThmYTYxMzQ4ZmM5NGRhMTdkODhiNWQ&role_id=1&sign=540d0c396c7d79e5c3097a7306773dbd
+CODE : B00001
+Notice : Undefined index: next_level_evolution_item_ids in E:\htdocs\yl_server\branch\model\Role.php on line 118 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 118 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 36 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:38:40 99296
+URL:/index.php/2144/Role/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU5MTIwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ODRkYmRlMmM5MmNjMTMzZDUyZWMzMGJmZGVhZjViYWE&role_id=1&sign=d164b6d4b32b816ec306e07c9a189a80
+CODE : B00001
+Notice : Undefined index: next_level_evolution_item_ids in E:\htdocs\yl_server\branch\model\Role.php on line 130 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 130 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 36 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 10:38:42 524634
+URL:/index.php/2144/Role/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjU5MTIyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MWYzYmYyNTJiMDk0ZjNiOTMwZDFhNjgwMzczN2U1NGY&role_id=1&sign=80ab1a4b44e280412b6c5c377f850cf9
+CODE : B00001
+Notice : Undefined index: next_level_evolution_item_ids in E:\htdocs\yl_server\branch\model\Role.php on line 130 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 130 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 36 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 

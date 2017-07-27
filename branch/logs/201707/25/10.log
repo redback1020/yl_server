@@ -1,0 +1,10 @@
+====================================================================================================
+2017-07-25 10:54:41 248784
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Illegal string offset 'floor' in E:\htdocs\yl_server\branch\core\Model.php on line 186 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 186 
+Backtrace[1]: (function) _explain_condition : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 48 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

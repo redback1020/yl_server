@@ -1,0 +1,100 @@
+====================================================================================================
+2017-06-22 21:22:35 74902
+URL:/red/index.php/a/dd/?a=1&rrr=3?sss=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 40 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 10 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:22:43 858388
+URL:/red/index.php/a/dd/?a=1&rrr=3?sss=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 40 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 10 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:22:52 901783
+URL:/red/index.php/a/dd/cc/?a=1&rrr=3?sss=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 40 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 10 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:22:58 496358
+URL:/red/index.php/a/dd/cc?a=1&rrr=3?sss=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 40 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 10 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:23:03 281291
+URL:/red/index.php/a/dd/cc?a=1&rrr=3&sss=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 40 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 10 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:23:39 224579
+URL:/red/index.php/a/dd/cc?a=1&rrr=3&sss=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 41 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 10 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:23:44 932703
+URL:/red/index.php/a/dd/cc/?a=1&rrr=3&sss=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 41 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 10 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:24:18 197405
+URL:/red/index.php/a/dd/cc/?a=1&rrr=3&sss=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 41 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 10 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:29:32 5076
+URL:/red/index.php/a/dd/cc/?a=1&rrr=3&ss?s=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 43 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 12 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 21:58:01 728271
+URL:/red/index.php?a=1&rrr=3&ss?s=444
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 46 
+Backtrace[1]: (function) parse_request_url : /Users/redback/Documents/MAMP PRO/red/core/Router.php on line 11 
+Backtrace[2]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Common.php on line 30 
+Backtrace[3]: (function) load_class : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 

@@ -1,0 +1,51 @@
+====================================================================================================
+2017-07-20 09:52:58 231628
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE1NTc4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NWZjMTViNWQ3MDZiYzRmOWU1NWNkZDllY2YxZWZjMTQ&goods_id=1&num=1&sign=814889843c6668076db7fa4afa81e9f9
+CODE : B00001
+Notice : Undefined index: static_store_base in E:\htdocs\yl_server\branch\model\Static.php on line 124 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Static.php on line 124 
+Backtrace[1]: (function) _table_primary_key : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 80 
+Backtrace[3]: (function) _row : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 8 
+Backtrace[5]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[7]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 09:53:34 619114
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE1NjE0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YjRmNmEzNTNjMzRlNTA5YmE2NmJkZDc0NTJhNWQ3YzQ&goods_id=1&num=1&sign=137863927b32b20613a07ad7808bc9e9
+CODE : B00001
+Notice : Undefined offset: 1 in E:\htdocs\yl_server\branch\model\Store.php on line 176 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Store.php on line 176 
+Backtrace[1]: (function) _get_goods_items : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 64 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 09:56:24 872903
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE1Nzg0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NDdlN2I0NTAxMTVhM2RkYmZkOTlmOWQ5YmM0MDRkNGU&goods_id=3&num=1&sign=4c73510143954490dbd57bfa4125a1ef
+CODE : B00001
+Notice : Undefined offset: 2 in E:\htdocs\yl_server\branch\model\Store.php on line 178 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Store.php on line 178 
+Backtrace[1]: (function) _get_goods_items : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 64 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 09:59:57 473725
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTE1OTk3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MWE0NzBlNzM3N2RjNWY3YWIzYzRkMDIzYTljZWM4Nzg&goods_id=3&num=1&sign=131e4e11df245b6412396a4b66bbf4cc
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_store_base` (`user_id`, `goods_id`, `num`, `last_buy_ymd`, `updatetime`, `createtime`) VALUES ('6', '3', '1', '20170720', '1500515997', '1500515997')
+Mysql Error : Field 'id' doesn't have a default value  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 318 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\Store.php on line 139 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 

@@ -1,0 +1,35 @@
+====================================================================================================
+2017-07-26 16:00:28 43842
+URL:/index.php/2144/Auth/SetNickname
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDU2MDI3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZjVmYTRjODg4YTk4OTM5YjI3ODAzYjRkNTZlZTYwMmQ&nickname=好好好&sign=86b06a30baa5e8f6562a299eb5164b74
+CODE : B00006
+SUB INFO :  UPDATE `user_info` SET `nickname` = '好好好', `updatetime` = '1501056028' WHERE `updatetime` = '1501037599' AND `user_id` = '6'
+Mysql Error : Unknown column 'updatetime' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 811 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 338 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 270 
+Backtrace[2]: (function) update : E:\htdocs\yl_server\branch\model\Auth.php on line 242 
+Backtrace[3]: (function) _set_user_nickname : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Auth.php on line 295 
+Backtrace[5]: (function) actionSetNickname : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-26 16:02:37 140679
+URL:/index.php/2144/Auth/SetNickname
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDU2MTU3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MjJjNWVlYzY2MWQzMmE4YjdlMjU5NGIyYjM4ZTc5YjI&nickname=好好好&sign=5cdefef49752ae6b134e6461513e56c4
+CODE : B00006
+SUB INFO :  UPDATE `user_info` SET `nickname` = '好好好', `updatetime` = '1501056157' WHERE `user_id` = '6' AND `updatetime` = '1501037599'
+Mysql Error : Unknown column 'updatetime' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 811 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 338 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 270 
+Backtrace[2]: (function) update : E:\htdocs\yl_server\branch\model\Auth.php on line 242 
+Backtrace[3]: (function) _set_user_nickname : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Auth.php on line 295 
+Backtrace[5]: (function) actionSetNickname : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-26 16:04:51 231356
+URL:/index.php/2144/User/SetSummary
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDU2MjkxIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MGE0MjA4MmRiMzg1ZjA2NmI1MTQ2ZDJlMDc5YzEyMWM&sign=3ff7c8512d974290825c33d68f70a1c9&summary=好好好sssss
+CODE : B00001
+Error : 参数 nickname 类型不是 string in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\core\Request.php on line 85 
+Backtrace[1]: (function) post : E:\htdocs\yl_server\branch\controller\User.php on line 67 
+Backtrace[2]: (function) actionSetSummary : E:\htdocs\yl_server\branch\index.php on line 76 

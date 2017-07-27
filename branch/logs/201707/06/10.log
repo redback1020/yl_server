@@ -1,0 +1,115 @@
+====================================================================================================
+2017-07-06 10:10:43 577183
+URL:/index.php/2144/Auth/Login
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MzA3MDQzIn0.WyI5NDNlNzY5YjRhNjgyZTZiMGI3ZWUxZjdjYzZiYmE1ZjU5NWQ5YzIzOGI4ZDkzLjIwMjExODYzIl0.MzU3M2FkZTk4ZDFkODk3ZTAxM2E2NTJlMjI2YjUyNTk2ZWQxM2UzZDdjNDNhMzlmM2NiY2ZlNWIzMmY0NzNjMQ&sign=a81d6b9f914e1d2ec78387a986830be23e52321662ba28acec6d1cdc5933d6ae
+CODE : C00005
+User Error : 用户名或者密码错误 in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 118 
+Backtrace[1]: (function) actionLogin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:55:33 341894
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=123456&authtoken=eyJleHAiOjM2MDAsImdlbiI6IjE0OTkzMDcwNTIifQ.eyJ1c2VyX2lkIjoiNzcifQ.MDVjNjczMjkyOGVkMjEwMGRlYjRlN2ViZGE0MzVmYzY2YWI3MmEwMmEwZTMzZjI4NjdjNjUyYTg2YTg4NGM5Mw&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MzA5NzMzIn0.WyIzMTk0NmFiMWNjM2UwMGEyZjkxOTk0MWEzNWI0N2ZkYjU5NWRhNmE1NGY3YmEyLjMzMzM4MjkzIl0.MzcyNWNkZTBjMWI3MWYwMjIxMzgyNmFlYzdmYzI3MzBkMDBkODI2ZTIyNmQ3YWUxYmIyNWQ4MGI5OTllMDYyZQ&sign=5a996b6e2fe3744d91cf5313ea88d51489e549e09c16292e2baa44684d42330d
+CODE : B00001
+Notice : Undefined index: username in E:\htdocs\yl_server\branch\controller\Auth.php on line 261 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Auth.php on line 261 
+Backtrace[1]: (function) actionResetPassword : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:56:04 659849
+URL:/index.php/2144/Auth/Login
+POST:username=648125653%40qq.com&password=987654321&sign=06e8492ab3ea0cc1e43c61cd1a6b8d5f21da5ae4ef3868e982ae54e40ad3354d
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 140 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Auth.php on line 96 
+Backtrace[2]: (function) actionLogin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:56:32 730105
+URL:/index.php/2144/Auth/Login
+POST:username=648125653%40qq.com&password=987654321&sign=06e8492ab3ea0cc1e43c61cd1a6b8d5f21da5ae4ef3868e982ae54e40ad3354d
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 140 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Auth.php on line 96 
+Backtrace[2]: (function) actionLogin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:57:32 934909
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:57:37 206819
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:57:38 838
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:57:38 910183
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:57:39 64624
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:57:40 36931
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:57:41 31253
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:57:41 606196
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-06 10:59:10 883189
+URL:/index.php/2144/Auth/ResetPassword
+POST:password=987654321&new_password=987654321&authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&sign=8e0fa5dea98f90d6b566ae18ba8b1ec18e9491ffa2e65e6562da922aa605e5d7
+CODE : B00014
+User Error : Too many requests for connections. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 

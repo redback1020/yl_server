@@ -1,0 +1,23 @@
+====================================================================================================
+2017-07-20 15:51:40 41874
+URL:/index.php/2144/Equip/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTM3MTAwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YzI0ZDM2ZjI5MWYyNWIwMzBmODEzMDU2YjhmMWY1ZGM&equip_uuid=6e78bda2-6cf3-11e7-845d-484d7ecbc8b7&merge_equip_uuids=6e7bcac3-6cf3-11e7-845d-484d7ecbc8b7|6e7bcac5-6cf3-11e7-845d-484d7ecbc8b7&sign=993f04a042e6171e7bf52f6eb1fd10a8
+CODE : B00001
+Notice : Undefined index: max_level_strengthen_exp in E:\htdocs\yl_server\branch\model\Equip.php on line 143 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Equip.php on line 143 
+Backtrace[1]: (function) _strengththen : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Equip.php on line 15 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 15:52:29 152861
+URL:/index.php/2144/Equip/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTM3MTQ5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MTljOGQ4MjQzNmIxYTUyMzljYzNhZGRiYmU4MmYyYTQ&equip_uuid=6e78bda2-6cf3-11e7-845d-484d7ecbc8b7&merge_equip_uuids=6e7bcac3-6cf3-11e7-845d-484d7ecbc8b7|6e7bcac5-6cf3-11e7-845d-484d7ecbc8b7&sign=b1829d8438962fcb369e59dc77216173
+CODE : B00006
+SUB INFO :  DELETE FROM `user_equip_base` WHERE `user_id` = '6' AND `trump_uuid` IN ()
+Mysql Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 275 
+Backtrace[2]: (function) delete : E:\htdocs\yl_server\branch\model\Equip.php on line 167 
+Backtrace[3]: (function) _strengththen : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Equip.php on line 15 
+Backtrace[5]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 

@@ -1,0 +1,17 @@
+====================================================================================================
+2017-07-13 12:25:06 270487
+URL:/index.php/2144/Team/SetTeamName
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5OTE5OTA2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.M2Q0ZTQ4ZjcxZDk3NTY0YWI2NTliNGM0NmI0OTBlOTI&sign=50ea0a6829e22a0abd287c72f075c472&team_id=2&team_name=哈哈哈1111
+CODE : C00018
+User Error : 队伍名只能是1-6个字的中文或英文字符 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 44 
+Backtrace[2]: (function) actionSetTeamName : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-13 12:49:33 116016
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : preg_match(): Compilation failed: nothing to repeat at offset 57 in E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[1]: (function) preg_match : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

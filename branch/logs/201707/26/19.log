@@ -1,0 +1,32 @@
+====================================================================================================
+2017-07-26 19:11:19 536596
+URL:/index.php/2144/Async/GameLog
+POST:createtime=1501067479&num=5&obj_id=ap&operation=sub&sign=5e7820c3a40fa92e879608ba06c722ad&type=source&user_id=6&way=battle_event
+CODE : B00001
+Notice : Undefined index: battle_event in E:\htdocs\yl_server\branch\controller\Async.php on line 64 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Async.php on line 64 
+Backtrace[1]: (function) actionGameLog : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-26 19:13:08 330589
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDY3OTQzIn0.eyJ1c2VyX2lkIjoiMyIsInVzZXJuYW1lIjoiMTExQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MzRlYjEwZDRiODQ5NDEzZmNkNjY2YWYzYTA2M2JmNzY&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=31da3e54eb1742aef9333c9fef58bcc9&team_id=1
+CODE : B00001
+Notice : Undefined index: role in E:\htdocs\yl_server\branch\core\Model.php on line 115 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 115 
+Backtrace[1]: (function) _check_confition : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 726 
+Backtrace[3]: (function) _get_battle_team : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 28 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-26 19:14:44 856666
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDY3OTQzIn0.eyJ1c2VyX2lkIjoiMyIsInVzZXJuYW1lIjoiMTExQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MzRlYjEwZDRiODQ5NDEzZmNkNjY2YWYzYTA2M2JmNzY&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=31da3e54eb1742aef9333c9fef58bcc9&team_id=1
+CODE : B00001
+Notice : Undefined index: role in E:\htdocs\yl_server\branch\core\Model.php on line 115 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 115 
+Backtrace[1]: (function) _check_confition : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Battle.php on line 726 
+Backtrace[3]: (function) _get_battle_team : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 28 
+Backtrace[5]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 

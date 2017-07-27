@@ -1,0 +1,122 @@
+====================================================================================================
+2017-07-05 13:16:25 934813
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : Call to undefined method Library_Email::build_headers() in E:\htdocs\yl_server\branch\libraries\Email.php on line 75 
+Backtrace[0]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[1]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:17:41 970222
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : Call to undefined method Library_Email::_get_content_type() in E:\htdocs\yl_server\branch\libraries\Email.php on line 125 
+Backtrace[0]: (function) build_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 76 
+Backtrace[1]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[2]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:17:43 572985
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : Call to undefined method Library_Email::_get_content_type() in E:\htdocs\yl_server\branch\libraries\Email.php on line 125 
+Backtrace[0]: (function) build_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 76 
+Backtrace[1]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[2]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:19:28 245617
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Warning : fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol in E:\htdocs\yl_server\branch\libraries\Email.php on line 395 
+Backtrace[1]: (function) fsockopen : E:\htdocs\yl_server\branch\libraries\Email.php on line 395 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 275 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 80 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:21:24 79586
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Warning : fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol in E:\htdocs\yl_server\branch\libraries\Email.php on line 395 
+Backtrace[1]: (function) fsockopen : E:\htdocs\yl_server\branch\libraries\Email.php on line 395 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 275 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 80 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:21:41 229105
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Warning : fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol in E:\htdocs\yl_server\branch\libraries\Email.php on line 395 
+Backtrace[1]: (function) fsockopen : E:\htdocs\yl_server\branch\libraries\Email.php on line 395 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 275 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 80 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:23:48 646973
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : email_smtp_error:220 smtp.qq.com Esmtp QQ Mail Server
+ in E:\htdocs\yl_server\branch\libraries\Email.php on line 546 
+Backtrace[0]: (function) _set_error_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 365 
+Backtrace[1]: (function) _send_command : E:\htdocs\yl_server\branch\libraries\Email.php on line 418 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 275 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 80 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:25:23 529761
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : email_smtp_error:220 smtp.qq.com Esmtp QQ Mail Server
+ in E:\htdocs\yl_server\branch\libraries\Email.php on line 546 
+Backtrace[0]: (function) _set_error_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 365 
+Backtrace[1]: (function) _send_command : E:\htdocs\yl_server\branch\libraries\Email.php on line 418 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 275 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 80 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:51:23 9576
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Notice : Use of undefined constant ICONV_ENABLED - assumed 'ICONV_ENABLED' in E:\htdocs\yl_server\branch\libraries\Email.php on line 310 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\libraries\Email.php on line 310 
+Backtrace[1]: (function) _prep_q_encoding : E:\htdocs\yl_server\branch\libraries\Email.php on line 102 
+Backtrace[2]: (function) build_header : E:\htdocs\yl_server\branch\libraries\Email.php on line 76 
+Backtrace[3]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[4]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:52:04 44158
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Notice : Use of undefined constant ICONV_ENABLED - assumed 'ICONV_ENABLED' in E:\htdocs\yl_server\branch\libraries\Email.php on line 310 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\libraries\Email.php on line 310 
+Backtrace[1]: (function) _prep_q_encoding : E:\htdocs\yl_server\branch\libraries\Email.php on line 102 
+Backtrace[2]: (function) build_header : E:\htdocs\yl_server\branch\libraries\Email.php on line 76 
+Backtrace[3]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[4]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 13:59:41 134045
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : email_smtp_error: in E:\htdocs\yl_server\branch\libraries\Email.php on line 579 
+Backtrace[0]: (function) _set_error_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 398 
+Backtrace[1]: (function) _send_command : E:\htdocs\yl_server\branch\libraries\Email.php on line 451 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 308 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 81 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 

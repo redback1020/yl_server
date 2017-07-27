@@ -1,0 +1,18 @@
+====================================================================================================
+2017-07-13 10:41:35 946809
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5OTEzNjk1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NTU1ZTViYTlmYjlkYzgwNTU3ZDYwZWZmNjc1M2MyNDE&role_ids=|1&sign=1085e37719d8ef79bc65de30d0ca604a&team_id=1&trump_ids=||17|44
+CODE : B00001
+Notice : Undefined index: is_main in E:\htdocs\yl_server\branch\model\Team.php on line 48 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Team.php on line 48 
+Backtrace[1]: (function) set_team : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 84 
+Backtrace[3]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-13 10:44:50 959633
+URL:/index.php/2144/Team/SetMainTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5OTEzODkwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.Njk1MWE1ZmUxYmJiNjYyYWIzNWY0OGFlOThjZTI5Yjg&sign=c9beecef3b699ffbab3f8aef84141d83&team_id=2
+CODE : C00017
+User Error : 主编队必须有成员 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Team.php on line 110 
+Backtrace[1]: (function) actionSetMainTeam : E:\htdocs\yl_server\branch\index.php on line 76 

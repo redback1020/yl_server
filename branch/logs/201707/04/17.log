@@ -1,0 +1,139 @@
+====================================================================================================
+2017-07-04 17:45:03 841175
+URL:/index.php/2144/Test/Index
+POST:
+CODE : B00001
+Error : Call to undefined method Core_Model::load_database() in E:\htdocs\yl_server\branch\controller\Test.php on line 16 
+Backtrace[0]: (function) actionIndex : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:45:33 91748
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00001
+Error : Call to a member function get() on null in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 38 
+Backtrace[0]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:48:06 109321
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00008
+User Error : Token Is Invalid. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 67 
+Backtrace[1]: (function) parse_token : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 100 
+Backtrace[2]: (function) get_token_header : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 116 
+Backtrace[3]: (function) token_is_expiry : E:\htdocs\yl_server\branch\core\Base.php on line 111 
+Backtrace[4]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[5]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:48:17 940974
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00008
+User Error : Token Is Invalid. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 67 
+Backtrace[1]: (function) parse_token : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 100 
+Backtrace[2]: (function) get_token_header : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 116 
+Backtrace[3]: (function) token_is_expiry : E:\htdocs\yl_server\branch\core\Base.php on line 111 
+Backtrace[4]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[5]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:49:13 93963
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00008
+User Error : Token Is Invalid. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 67 
+Backtrace[1]: (function) parse_token : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 100 
+Backtrace[2]: (function) get_token_header : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 116 
+Backtrace[3]: (function) token_is_expiry : E:\htdocs\yl_server\branch\core\Base.php on line 111 
+Backtrace[4]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[5]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:49:29 146173
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00008
+User Error : Token Is Invalid. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 67 
+Backtrace[1]: (function) parse_token : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 100 
+Backtrace[2]: (function) get_token_header : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 116 
+Backtrace[3]: (function) token_is_expiry : E:\htdocs\yl_server\branch\core\Base.php on line 111 
+Backtrace[4]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[5]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:49:42 46217
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00008
+User Error : Token Is Invalid. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 67 
+Backtrace[1]: (function) parse_token : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 100 
+Backtrace[2]: (function) get_token_header : E:\htdocs\yl_server\branch\libraries\AuthToken.php on line 116 
+Backtrace[3]: (function) token_is_expiry : E:\htdocs\yl_server\branch\core\Base.php on line 111 
+Backtrace[4]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[5]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:50:49 695161
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00001
+Error : Call to a member function get() on null in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 38 
+Backtrace[0]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:51:40 467248
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00001
+Error : Call to a member function get() on null in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 38 
+Backtrace[0]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:52:12 999813
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00001
+Error : Call to a member function get() on null in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 38 
+Backtrace[0]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:55:05 761486
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00001
+Error : Call to a member function C() on null in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 38 
+Backtrace[0]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:56:16 760757
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00001
+Error : Call to a member function get() on null in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 38 
+Backtrace[0]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:57:01 9475
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00001
+Error : Call to a member function get() on null in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 38 
+Backtrace[0]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 
+====================================================================================================
+2017-07-04 17:58:17 475105
+URL:/index.php/2144/Auth/Register
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MTYxMjI4In0.WyIwZjAwZmNjN2I5YWNhNTM4ODY4NWI3NDI1NjJkYWQ5ZDU5NWI2MjhjYjk4ZmI0LjgwNDg2NjE5Il0.MWIwMjdiODBhNTVhZjIyM2E3NzVmODMyNWJlODhhYWI2NmI0ZmRiNzZhMGJjNmM0MTM5NWE5ZDIxYTg1ZDQzZA&username=aaaabb567&password=aaaabb567&sign=5d74fef6198d9bd55a2ab8975748b0f6b2b33b2a0217f9f12f467e37f9e06be8
+CODE : B00001
+Error : Call to a member function get() on null in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 44 
+Backtrace[0]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 116 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 75 

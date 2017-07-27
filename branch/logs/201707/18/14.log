@@ -1,0 +1,86 @@
+====================================================================================================
+2017-07-18 14:00:58 713059
+URL:/index.php/2144/Trump/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU3NjU4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YWRjZjE4MzU3OWM1NmM4MDIwNTYxM2NkYzMzNmFlNTE&sign=c403914e6df5f954150f7005ad41912c&special_strengthen_item_num=0&strengthen_item_num=1&trump_id=17
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 168 
+Backtrace[1]: (function) _detract_item : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 42 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 14:02:10 774855
+URL:/index.php/2144/Trump/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU3NzMwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.OWNiM2YwYTA1MGU1YzNlZGZiNGZkNTA3MTZhZjBjNzY&sign=ffb5fb87b330c270647e5502abb85711&special_strengthen_item_num=0&strengthen_item_num=1&trump_id=17
+CODE : B00001
+Notice : Undefined index: strengthen_exp in E:\htdocs\yl_server\branch\model\Trump.php on line 102 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Trump.php on line 102 
+Backtrace[1]: (function) _strengthen_expincr : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 46 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 14:04:36 204344
+URL:/index.php/2144/Trump/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU3ODc2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZTMxMTY3YzQ1NTVkM2YwMGNiMTI0MjhhNWJhY2MwMDI&sign=a01d1a00c95f69e82eb975c1b5622e3c&special_strengthen_item_num=0&strengthen_item_num=1&trump_uuid=29
+CODE : B00001
+Notice : Undefined index: static_trump_strengthen_upgrade in E:\htdocs\yl_server\branch\model\Static.php on line 123 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Static.php on line 123 
+Backtrace[1]: (function) _table_primary_key : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 20 
+Backtrace[3]: (function) _all : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 225 
+Backtrace[5]: (function) _forget_strengthen_level : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 105 
+Backtrace[7]: (function) _strengthen_expincr : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[8]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 46 
+Backtrace[9]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 14:06:55 74355
+URL:/index.php/2144/Trump/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU4MDE0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YTQ0MjdkZjZlNWEwMjAwNTRkZjQwMTVlNTA0MGFkYzc&sign=bba934e649ff2a83673e091c83ab95f7&special_strengthen_item_num=0&strengthen_item_num=1&trump_uuid=29
+CODE : B00001
+Notice : Undefined index: updatetime in E:\htdocs\yl_server\branch\model\Trump.php on line 125 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Trump.php on line 125 
+Backtrace[1]: (function) _strengthen_expincr : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 46 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 14:29:04 653235
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU5MzQ0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NWFmMmRjNTFmMzNhMWMyNzU5MmFkZTFlZjU2ZmJhZmE&merge_trump_uuids=51|52&sign=f91e460aab15dc73379efb9b68ef23b8&trump_uuids=29
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 173 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 14:29:50 390453
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU5MzkwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YmVkMjk0MmM3MTg5M2I0N2FmZTE2NTdkMzkwZTk1M2U&merge_trump_uuids=51|52&sign=d44a59e9951f03937cd02e04fb2ffcca&trump_uuids=29
+CODE : B00001
+Notice : Undefined variable: merge_trump_arr in E:\htdocs\yl_server\branch\model\Trump.php on line 161 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Trump.php on line 161 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 14:30:14 354956
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU5NDE0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NmYzMDU0NjE5ZWZkZDE3YWM1NmE2OGQ4OWU5NzQ0ZDA&merge_trump_uuids=51|52&sign=d494abb96440787f4078576a6cdfbd6c&trump_uuids=29
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 174 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 14:31:03 581958
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzU5NDYwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YWZmZDE0OTNiMmE3Njk3MDI3ZWNlMjBjODljYTMwZDI&merge_trump_uuids=51|52&sign=ada5e8c48703715bc9afb8648a5abaa6&trump_uuids=29
+CODE : B00001
+Warning : Illegal string offset 'trump_id' in E:\htdocs\yl_server\branch\model\Trump.php on line 165 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Trump.php on line 165 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 

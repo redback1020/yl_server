@@ -1,0 +1,63 @@
+====================================================================================================
+2017-07-27 11:44:06 649741
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTI3MDQ2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MDk4ZjI2ODZmYjNmNGQyMWQxZGJhMWY0MzNhYTNhYjk&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=318b6ec5173614a03932ce4de577a502&team_id=1
+CODE : B00001
+Notice : Undefined index: role_ids in E:\htdocs\yl_server\branch\model\Battle.php on line 56 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 56 
+Backtrace[1]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 23 
+Backtrace[3]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 11:45:54 25574
+URL:/index.php/2144/Async/GameLog
+POST:createtime=1501127153&num=5&obj_id=ap&operation=sub&sign=0c878a695c0a12cb794076cc88e15107&type=source&user_id=6&way=battle_event
+CODE : B00001
+Notice : Undefined index: battle_event in E:\htdocs\yl_server\branch\controller\Async.php on line 64 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Async.php on line 64 
+Backtrace[1]: (function) actionGameLog : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 11:46:35 640813
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTI3MTk1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MjE5YTc0Y2VlNjlhNjBkNjgyMjkwZTcwNTU2MWVjMWE&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=3359bda3721bca3ac4040dced3fec60c&team_id=1
+CODE : C00023
+User Error : 存在战斗进程,无法执行该操作 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 82 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 23 
+Backtrace[2]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 11:46:51 273747
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTI3MjExIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NTRlMjRiZmY5ZWRmNDRiOGMxZWVkNDU4ZGIyNDBmOTc&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=df6f632a1756c66eec7d8210fa4700eb&team_id=1
+CODE : B00001
+Notice : Undefined index: role_num in E:\htdocs\yl_server\branch\model\Battle.php on line 56 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Battle.php on line 56 
+Backtrace[1]: (function) _add_battle_process : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 23 
+Backtrace[3]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 11:47:37 823925
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTI3MjU3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZTc0YjNiYmNjYmMyNGRjMTlkODhmNDI2OGVlM2M1YTk&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=a3bbf3cb12e4e3fc3dbba2cc14980a16&team_id=1
+CODE : C00019
+User Error : 队伍没有配置成员 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 82 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 23 
+Backtrace[2]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 11:49:04 112324
+URL:/index.php/2144/Battle/BattleBegin
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTI3MzQ0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NzAwMGFiZDg1Mzc3ZTM3ODJjNTAzZmVmYjA3MDYzNmI&battle_type=event&event_id=10101&explore_id=101&map_id=1&sign=a840d02af8701c551fcab65b9342d9c3&team_id=1
+CODE : C00019
+User Error : 队伍没有配置成员 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 82 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 23 
+Backtrace[2]: (function) actionBattleBegin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 11:49:13 910965
+URL:/index.php/2144/Async/GameLog
+POST:createtime=1501127353&num=5&obj_id=ap&operation=sub&sign=4fb63e9808344bf0163f1f520b3b5728&type=source&user_id=6&way=battle_event
+CODE : B00001
+Notice : Undefined index: battle_event in E:\htdocs\yl_server\branch\controller\Async.php on line 64 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Async.php on line 64 
+Backtrace[1]: (function) actionGameLog : E:\htdocs\yl_server\branch\index.php on line 76 

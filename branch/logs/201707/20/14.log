@@ -1,0 +1,26 @@
+====================================================================================================
+2017-07-20 14:57:18 163007
+URL:/index.php/2144/Equip/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTMzODM3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NDY5OGYyMjQwM2ZjMzlkZmQ5MWEzNjdkZDY3ZTYwNTE&equip_uuid=6e78bda2-6cf3-11e7-845d-484d7ecbc8b7&merge_equip_uuids=6e7bcac3-6cf3-11e7-845d-484d7ecbc8b7|6e7bcac5-6cf3-11e7-845d-484d7ecbc8b7&sign=4a0473762418bb888f7d8d86ef07179a
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Equip.php on line 106 
+Backtrace[1]: (function) _strengththen : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Equip.php on line 15 
+Backtrace[3]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-20 14:58:11 487987
+URL:/index.php/2144/Equip/Strengthen
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwNTMzODkxIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MzZkMDZkZjMxMjNkNWZiZDgwZmM2NTYzNTZjODgwYzM&equip_uuid=6e78bda2-6cf3-11e7-845d-484d7ecbc8b7&merge_equip_uuids=6e7bcac3-6cf3-11e7-845d-484d7ecbc8b7|6e7bcac5-6cf3-11e7-845d-484d7ecbc8b7&sign=6c17de4722cbbe0a58ccde980def0dcb
+CODE : B00001
+Notice : Undefined index: static_equip_strengthen_upgrade in E:\htdocs\yl_server\branch\model\Static.php on line 124 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Static.php on line 124 
+Backtrace[1]: (function) _table_primary_key : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 21 
+Backtrace[3]: (function) _all : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Equip.php on line 177 
+Backtrace[5]: (function) _forget_strengthen_level : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\model\Equip.php on line 135 
+Backtrace[7]: (function) _strengththen : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[8]: (function) __call : E:\htdocs\yl_server\branch\controller\Equip.php on line 15 
+Backtrace[9]: (function) actionStrengthen : E:\htdocs\yl_server\branch\index.php on line 76 

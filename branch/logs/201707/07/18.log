@@ -1,0 +1,150 @@
+====================================================================================================
+2017-07-07 18:19:35 643294
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method all_role_base is not exists in E:\htdocs\yl_server\branch\core\Model.php on line 72 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:19:50 1534
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method all_role_base is not exists in E:\htdocs\yl_server\branch\core\Model.php on line 72 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 10 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:26:59 444746
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Redis::hGet() expects exactly 2 parameters, 1 given in E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[1]: (function) hGet : E:\htdocs\yl_server\branch\core\Redis.php on line 27 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:49:03 270516
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method all_role_base is not exists in E:\htdocs\yl_server\branch\core\Model.php on line 72 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 45 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:49:52 168726
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method all_role_base is not exists in E:\htdocs\yl_server\branch\core\Model.php on line 72 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 43 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:50:55 38455
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method all_role_base is not exists in E:\htdocs\yl_server\branch\core\Model.php on line 72 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 43 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:51:10 579999
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Static Method all_role_base is not exists in E:\htdocs\yl_server\branch\core\Model.php on line 72 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 44 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:51:42 970006
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function keys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:52:57 433475
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:53:48 790199
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:53:49 488917
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:54:19 771633
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:54:47 425085
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:56:13 546986
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:58:02 27184
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:58:38 924752
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:58:57 843222
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-07 18:59:22 59845
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Call to a member function hkeys() on null in E:\htdocs\yl_server\branch\model\Static.php on line 17 
+Backtrace[0]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

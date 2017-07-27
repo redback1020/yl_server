@@ -1,0 +1,117 @@
+====================================================================================================
+2017-07-12 15:48:04 146858
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ1Njg0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MWEzMmQ1YjkzYjJiNmJjZmRkOWZiNmRkODUwNWI0ODg&role_ids=,1&sign=d537e21c0808ac9df088e36ed4d43667&team_id=1&trump_ids=,,17,44
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 152 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Team.php on line 8 
+Backtrace[2]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:50:02 855355
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ1ODAyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MTg1YWI1NjhiOGI2OWZmNDJmN2ZmNzI3ZGY5Mjg5NTI&role_ids=,1&sign=d0bacd32624f7b995fcc7f5ed82c74b4&team_id=1&trump_ids=,,17,44
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 152 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Team.php on line 8 
+Backtrace[2]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:51:05 134327
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ1ODY1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MGVjZTYxNjNkZmVlZDhmNzI1ZDYxMzFhMGM3YjIyNzc&role_ids=,1&sign=c107cfe89ac97c8ee9778499ac53a3fd&team_id=1&trump_ids=,,17,44
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 152 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Team.php on line 8 
+Backtrace[2]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:51:07 757373
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ1ODY3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NjhhNzEwYTIxOWNiOWY1MjM1MGNhNWFjMDM3MTMxM2M&role_ids=,1&sign=000182c2340e0b1702fd48e9a58ff7de&team_id=1&trump_ids=,,17,44
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 152 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Team.php on line 8 
+Backtrace[2]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:52:06 968016
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Illegal string offset 'data' in E:\htdocs\yl_server\branch\controller\Test.php on line 107 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Test.php on line 107 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:53:12 740509
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ1OTkyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MjAwZTI2NTAwZDNmNDFkODQ2MTc4ZjllY2U2ZDZiMjE&role_ids=,1&sign=4c0fad79b81593f0e4c8d6b102d2dc09&team_id=1&trump_ids=,,17,44
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 154 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Team.php on line 8 
+Backtrace[2]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:54:45 371446
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ2MDg1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZTA3ZTE4MTNmMjRmZjI2Y2ZiZDI4NWNiZTY5ZTgxZDc&role_ids=,1&sign=5b20564e6d76cc01c26947f7d241173a&team_id=1&trump_ids=,,17,44
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 154 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Team.php on line 8 
+Backtrace[2]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:54:47 15891
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ2MDg2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MjdhMzdkMDQ4ODg3ZTk1ZjRlMzlhNjZkNTJiNWQ5NGY&role_ids=,1&sign=67ba78219f3b2176c566ad20c3ff4e3f&team_id=1&trump_ids=,,17,44
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 154 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Team.php on line 8 
+Backtrace[2]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:55:30 631933
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ2MTMwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YWNhYTI0YjQ5N2EyNjEwMjc5MWUwNDRmYTUwMDMyNzY&role_ids=,1&sign=843d2dbbb365689fa38452d5189cdf18&team_id=1&trump_ids=,,17,44
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Team.php on line 17 
+Backtrace[1]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:57:50 480565
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ2MjcwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MDg5ZWM2ZmViZDUzMTZjMmZjY2Q4M2Y3ZjJlMTIyMDU&role_ids=|1&sign=b71d555d629d95250a19a78980ddc0cf&team_id=1&trump_ids=||17|44
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Team.php on line 17 
+Backtrace[1]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:58:59 659327
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ2MzM5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YTk3N2JlYTQ3MTQ3YmU5ZGY3ZWExYmNjNWFjYzc3Yjc&role_ids=|1&sign=722b3d04cf10775825aa7f548f77d216&team_id=1&trump_ids=||17|44
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Team.php on line 17 
+Backtrace[1]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:59:37 165266
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ2Mzc3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZjFkOTQ2Y2UzMGVhMTMyYWFlOTdlZjQwOWRiNDNlOGQ&role_ids=|1&sign=ef963bf2113d935b8e3a1df0b8e72e60&team_id=1&trump_ids=||17|44
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Team.php on line 18 
+Backtrace[1]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 15:59:56 68676
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ2Mzk1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZGUyZTQ3MDk2M2ZiYjBmNzJmNjVkZDc1YzBlYWM1Yjk&role_ids=|1&sign=164cfafabc66d0334f4035a0cda6516a&team_id=1&trump_ids=||17|44
+CODE : B00006
+SUB INFO :  SELECT `user_id`,`team_id`,`roles_id`,`trump_ids` FROM `user_team_base` WHERE `user_id` = '6' AND `team_id` = 1
+Mysql Error : Unknown column 'roles_id' in 'field list'  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 189 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\model\Team.php on line 63 
+Backtrace[3]: (function) get_team : E:\htdocs\yl_server\branch\model\Team.php on line 14 
+Backtrace[4]: (function) set_team : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[5]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 74 
+Backtrace[6]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 

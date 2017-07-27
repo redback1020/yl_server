@@ -1,0 +1,27 @@
+====================================================================================================
+2017-07-18 17:03:56 501881
+URL:/index.php/2144/Client/StaticData
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNTAwMzY4NjM2In0.WyI1YmUyMjIzNTMxNzMyOWU4OTM1NWZmMjdhNmFiODE5NjU5NmRjZWZjNzg4MTc0LjQ0Nzc5MjkwIl0.YjI3MTZmMGIwOGNhYTkyOTgxZDUyNTIxNjY2MjkyMjE&sign=bb698bced793a8074241419e76c42b67
+CODE : B00001
+Notice : Undefined index: static_battle_state in E:\htdocs\yl_server\branch\model\Static.php on line 124 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Static.php on line 124 
+Backtrace[1]: (function) _table_primary_key : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 21 
+Backtrace[3]: (function) _all : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Client.php on line 11 
+Backtrace[5]: (function) actionStaticData : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 17:04:27 8954
+URL:/index.php/2144/Client/StaticData
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNTAwMzY4NjY2In0.WyI5M2M5NWQ4ZTY0ZWJlMWMxMjFmY2YzZGI0ZjlmOTE0YzU5NmRjZjFiMDBiZmQwLjEzNjkzNDg3Il0.NTY1ODBmMThkZjU2ZWQ1YWUxZWM2NDUyYmIxYmQ4YmI&sign=0cb4704ef8235dfc87147785c5060fb2
+CODE : B00006
+SUB INFO :  SELECT * FROM `static_trump_user_level_upgrade`
+Mysql Error : Table 'yl_develop_static.static_trump_user_level_upgrade' doesn't exist  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 190 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\model\Static.php on line 131 
+Backtrace[3]: (function) _static_table_data : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 18 
+Backtrace[5]: (function) _all : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\controller\Client.php on line 29 
+Backtrace[7]: (function) actionStaticData : E:\htdocs\yl_server\branch\index.php on line 76 

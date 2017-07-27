@@ -1,0 +1,13 @@
+====================================================================================================
+2017-07-05 16:35:07 172538
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Warning : mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\htdocs\yl_server\branch\third\PHPMailer\class.phpmailer.php on line 698 
+Backtrace[1]: (function) mail : E:\htdocs\yl_server\branch\third\PHPMailer\class.phpmailer.php on line 698 
+Backtrace[2]: (function) mailPassthru : E:\htdocs\yl_server\branch\third\PHPMailer\class.phpmailer.php on line 1500 
+Backtrace[3]: (function) mailSend : E:\htdocs\yl_server\branch\third\PHPMailer\class.phpmailer.php on line 1337 
+Backtrace[4]: (function) postSend : E:\htdocs\yl_server\branch\third\PHPMailer\class.phpmailer.php on line 1213 
+Backtrace[5]: (function) send : E:\htdocs\yl_server\branch\libraries\Emailer.php on line 71 
+Backtrace[6]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 50 
+Backtrace[7]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 

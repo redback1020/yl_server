@@ -1,0 +1,7 @@
+====================================================================================================
+2017-07-26 18:46:53 950738
+URL:/index.php/2144/Store/StoreCatetory
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDY2MDEzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZTllZGQ1NTJlYmY2Y2E1NTIyZTljODRjMTZkMWY5ZjA&cate_id=5&parent_cate_id=1&sign=5e1feba72577d88d7c8bc2e5dec4dba3
+CODE : B00001
+Error : Call to undefined method ctr_Store::parse_goods() in E:\htdocs\yl_server\branch\controller\Store.php on line 66 
+Backtrace[0]: (function) actionStoreCatetory : E:\htdocs\yl_server\branch\index.php on line 76 

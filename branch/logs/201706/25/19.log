@@ -1,0 +1,11 @@
+====================================================================================================
+2017-06-25 19:35:48 6822
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+SUB INFO :  SELECT SUM(*) FROM `Tickets64`
+Mysql Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `Tickets64`' at line 1  in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 758 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 318 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 383 
+Backtrace[2]: (function) sum : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 21 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 

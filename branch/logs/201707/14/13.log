@@ -1,0 +1,39 @@
+====================================================================================================
+2017-07-14 13:18:06 510382
+URL:/index.php/2144/Auth/Login
+POST:password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNTAwMDA5NDg2In0.WyJlYTQwZDgwMGIzYzVhNzkyNmQ4OWQ1YTkyZTFlOWM0NTU5Njg1NDBlNzg4NjM2LjE3NzYxNzkwIl0.MDc3MGNhYzk1MDc5YTNlMWU4YWUyZjkwMWVhYjFkMzU&sign=1f2ab9463fbea766127cfc69a0ebb63f&username=648125653@qq.com
+CODE : B00006
+SUB INFO :  SELECT `` FROM `user_info` WHERE `username` = '648125653@qq.com' LIMIT 1
+Mysql Error : Unknown column '' in 'field list'  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 189 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\core\DB.php on line 216 
+Backtrace[3]: (function) select_row : E:\htdocs\yl_server\branch\model\Auth.php on line 75 
+Backtrace[4]: (function) _get_auth_info_by_username : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[5]: (function) __call : E:\htdocs\yl_server\branch\controller\Auth.php on line 104 
+Backtrace[6]: (function) actionLogin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-14 13:18:06 488167
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Illegal string offset 'authtoken' in E:\htdocs\yl_server\branch\controller\Test.php on line 130 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Test.php on line 130 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-14 13:21:10 357397
+URL:/index.php/2144/Auth/Login
+POST:password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNTAwMDA5NjcwIn0.WyIwYzFhMWVhYTJlMDYyOTk5OWZmNDlmMGNkOWZhOGEzYTU5Njg1NGM2NTU5ZWQ1Ljc5NTg4OTA0Il0.MWQ5MDVlODQ0ZjY3ZjgzMTJhYzg5YWZmYzE4OGU0NmY&sign=cca4d6d010f42f9bcfa87f5282720952&username=648125653@qq.com
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 75 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Auth.php on line 119 
+Backtrace[2]: (function) actionLogin : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-14 13:21:10 346341
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Illegal string offset 'authtoken' in E:\htdocs\yl_server\branch\controller\Test.php on line 130 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Test.php on line 130 
+Backtrace[1]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

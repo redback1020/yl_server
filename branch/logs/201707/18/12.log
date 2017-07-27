@@ -1,0 +1,68 @@
+====================================================================================================
+2017-07-18 12:44:52 648685
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_equip_base` (`equip_uuid`, `equip_id`, `user_id`, `strengthen_level`, `strengthen_exp`, `equip_index`, `role_id`, `createtime`, `updatetime`) VALUES (UUID(), '1', '6', '1', '0', '0', '0', '1500353092', '1500353092')
+Mysql Error : Data too long for column 'equip_uuid' at row 1  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 318 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\User.php on line 279 
+Backtrace[3]: (function) _insert_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 12:45:37 32069
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 283 
+Backtrace[1]: (function) _insert_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 12:46:10 547957
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 283 
+Backtrace[1]: (function) _insert_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 12:46:58 9627
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 283 
+Backtrace[1]: (function) _insert_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 12:47:10 951778
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 284 
+Backtrace[1]: (function) _insert_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 12:58:58 271162
+URL:/index.php/2144/Role/SetEquip
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzUzOTM4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YTc0M2EwMWU1ZDRlMzNmNTViNTM4ODU2NzU5ZTBlMWU&equip_index=1&equop_uuid=d21d8501-6b75-11e7-845d-484d7ecbc8b7&role_id=1&sign=7f01586e7d27ff16bf7533158fed7aec
+CODE : B00006
+SUB INFO :  SELECT `equip_uuid`,`user_id`,`equip_id`,`strengthen_exp`,`strengthen_level`,`updatetime` FROM `user_equip_base` WHERE `user_id` = '6' AND `equop_uuid` = 'd21d8501-6b75-11e7-845d-484d7ecbc8b7'
+Mysql Error : Unknown column 'equop_uuid' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 190 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\model\User.php on line 237 
+Backtrace[3]: (function) _get_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Role.php on line 244 
+Backtrace[5]: (function) _set_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 54 
+Backtrace[7]: (function) actionSetEquip : E:\htdocs\yl_server\branch\index.php on line 76 

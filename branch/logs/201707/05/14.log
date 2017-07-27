@@ -1,0 +1,61 @@
+====================================================================================================
+2017-07-05 14:02:34 532312
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : email_smtp_error: in E:\htdocs\yl_server\branch\libraries\Email.php on line 579 
+Backtrace[0]: (function) _set_error_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 398 
+Backtrace[1]: (function) _send_command : E:\htdocs\yl_server\branch\libraries\Email.php on line 451 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 308 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 81 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 14:03:00 710736
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : email_smtp_error: in E:\htdocs\yl_server\branch\libraries\Email.php on line 579 
+Backtrace[0]: (function) _set_error_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 398 
+Backtrace[1]: (function) _send_command : E:\htdocs\yl_server\branch\libraries\Email.php on line 451 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 308 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 81 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 14:05:29 555835
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : email_smtp_error: in E:\htdocs\yl_server\branch\libraries\Email.php on line 578 
+Backtrace[0]: (function) _set_error_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 397 
+Backtrace[1]: (function) _send_command : E:\htdocs\yl_server\branch\libraries\Email.php on line 450 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 308 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 81 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 14:05:43 40507
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : email_smtp_error: in E:\htdocs\yl_server\branch\libraries\Email.php on line 578 
+Backtrace[0]: (function) _set_error_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 397 
+Backtrace[1]: (function) _send_command : E:\htdocs\yl_server\branch\libraries\Email.php on line 450 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 308 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 81 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 14:06:11 403619
+URL:/index.php/2144/Test/B
+POST:
+CODE : B00001
+Error : email_smtp_error:220 smtp.qq.com Esmtp QQ Mail Server
+ in E:\htdocs\yl_server\branch\libraries\Email.php on line 578 
+Backtrace[0]: (function) _set_error_message : E:\htdocs\yl_server\branch\libraries\Email.php on line 397 
+Backtrace[1]: (function) _send_command : E:\htdocs\yl_server\branch\libraries\Email.php on line 450 
+Backtrace[2]: (function) _smtp_connect : E:\htdocs\yl_server\branch\libraries\Email.php on line 308 
+Backtrace[3]: (function) _send_with_smtp : E:\htdocs\yl_server\branch\libraries\Email.php on line 81 
+Backtrace[4]: (function) send : E:\htdocs\yl_server\branch\controller\Test.php on line 42 
+Backtrace[5]: (function) actionB : E:\htdocs\yl_server\branch\index.php on line 76 

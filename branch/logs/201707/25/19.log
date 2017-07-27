@@ -1,0 +1,16 @@
+====================================================================================================
+2017-07-25 19:20:54 227073
+URL:/index.php/2144/Battle/BattleMap
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwOTgxNjU0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YTFlZjUyNjU3NGMyMDUxM2MzMWYwZmMyZDBmYTZmZjI&sign=ce870daaaf3e8ad7df2ed97378f2996e
+CODE : B00001
+Error : Call to undefined method ctr_Battle::get_model() in E:\htdocs\yl_server\branch\controller\Battle.php on line 119 
+Backtrace[0]: (function) actionBattleMap : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 19:21:26 810374
+URL:/index.php/2144/Battle/BattleMap
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwOTgxNjg2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YWU4OTIzODZlNzkxOWNmMzRmMTUxZTU2YzZmODM2MWI&sign=3c8c42d622c8878a81caf5798f67f9fe
+CODE : B00018
+User Error : Model Methon is Not Exist. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 75 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 119 
+Backtrace[2]: (function) actionBattleMap : E:\htdocs\yl_server\branch\index.php on line 76 

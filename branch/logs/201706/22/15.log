@@ -1,0 +1,35 @@
+====================================================================================================
+2017-06-22 15:15:08 454253
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Wrong parameters for ErrorException([string $message [, long $code, [ long $severity, [ string $filename, [ long $lineno  [, Throwable $previous = NULL]]]]]]) in /Users/redback/Documents/MAMP PRO/red/core/Exceptions.php on line 26 
+Backtrace[0]: (function) __construct : /Users/redback/Documents/MAMP PRO/red/core/Exceptions.php on line 26 
+Backtrace[1]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[2]: (function) {closure} : /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+====================================================================================================
+2017-06-22 15:25:22 76598
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Undefined variable: a in /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[1]: (function) {closure} : /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+====================================================================================================
+2017-06-22 15:25:43 890461
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Undefined variable: bbb in /Users/redback/Documents/MAMP PRO/red/index.php on line 36 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[1]: (function) {closure} : /Users/redback/Documents/MAMP PRO/red/index.php on line 36 
+====================================================================================================
+2017-06-22 15:29:08 202889
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[1]: (function) {closure} : /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+====================================================================================================
+2017-06-22 15:33:12 123162
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+User Error : System Error. Unknown ErrorCode. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 58 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 

@@ -1,0 +1,107 @@
+====================================================================================================
+2017-07-11 18:18:06 135296
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : array_combine() expects parameter 2 to be array, string given in E:\htdocs\yl_server\branch\model\Static.php on line 82 
+Backtrace[1]: (function) array_combine : E:\htdocs\yl_server\branch\model\Static.php on line 82 
+Backtrace[2]: (function) row : E:\htdocs\yl_server\branch\model\Build.php on line 8 
+Backtrace[3]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[4]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:19:50 517253
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  SELECT * FROM `build_base` WHERE `build_type` = '101' `level` = '0' LIMIT 1
+Mysql Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`level` = '0' LIMIT 1' at line 1  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 189 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\core\DB.php on line 216 
+Backtrace[3]: (function) select_row : E:\htdocs\yl_server\branch\model\Static.php on line 87 
+Backtrace[4]: (function) row : E:\htdocs\yl_server\branch\model\Build.php on line 8 
+Backtrace[5]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[6]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:32:00 645022
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Missing argument 2 for mod_Static::row(), called in E:\htdocs\yl_server\branch\model\Build.php on line 7 and defined in E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[1]: (function) row : E:\htdocs\yl_server\branch\model\Build.php on line 7 
+Backtrace[2]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:32:31 277208
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Missing argument 2 for mod_Static::row(), called in E:\htdocs\yl_server\branch\model\Build.php on line 7 and defined in E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[1]: (function) row : E:\htdocs\yl_server\branch\model\Build.php on line 7 
+Backtrace[2]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:33:12 247483
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Missing argument 2 for mod_Static::row(), called in E:\htdocs\yl_server\branch\model\Build.php on line 7 and defined in E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Static.php on line 66 
+Backtrace[1]: (function) row : E:\htdocs\yl_server\branch\model\Build.php on line 7 
+Backtrace[2]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:34:22 933666
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : [] operator not supported for strings in E:\htdocs\yl_server\branch\model\Static.php on line 24 
+Backtrace[0]: (function) all : E:\htdocs\yl_server\branch\model\Build.php on line 7 
+Backtrace[1]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:38:40 984653
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : [] operator not supported for strings in E:\htdocs\yl_server\branch\model\Static.php on line 25 
+Backtrace[0]: (function) all : E:\htdocs\yl_server\branch\model\Build.php on line 7 
+Backtrace[1]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:39:03 508552
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : [] operator not supported for strings in E:\htdocs\yl_server\branch\model\Static.php on line 25 
+Backtrace[0]: (function) all : E:\htdocs\yl_server\branch\model\Build.php on line 7 
+Backtrace[1]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:44:18 788079
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  SELECT * FROM `user_build_flag` WHERE `user_id` = 100 `build_type` = '101'
+Mysql Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`build_type` = '101'' at line 1  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 189 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\model\Build.php on line 93 
+Backtrace[3]: (function) get_build_flag : E:\htdocs\yl_server\branch\model\Build.php on line 15 
+Backtrace[4]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 18:48:01 88356
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  SELECT * FROM `user_build_flag` WHERE `user_id` = 100 AND `build_type` = '101'
+Mysql Error : Unknown column 'build_type' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 189 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\model\Build.php on line 93 
+Backtrace[3]: (function) get_build_flag : E:\htdocs\yl_server\branch\model\Build.php on line 15 
+Backtrace[4]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

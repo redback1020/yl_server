@@ -1,0 +1,21 @@
+====================================================================================================
+2017-06-26 12:56:38 168351
+URL:/
+POST:
+CODE : B00004
+User Error : Request Uri Is Not valid. in E:\htdocs\Red\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\Red\core\Router.php on line 43 
+Backtrace[1]: (function) parse_request_url : E:\htdocs\Red\core\Router.php on line 92 
+Backtrace[2]: (function) get_parse_url : E:\htdocs\Red\index.php on line 68 
+====================================================================================================
+2017-06-26 12:56:55 51679
+URL:/index.php/a/Test/Index
+POST:
+CODE : B00006
+SUB INFO :  SELECT * FROM `Tickets64` ORDER BY `id` DESC LIMIT 1
+Mysql Error : Table 'test.tickets64' doesn't exist  in E:\htdocs\Red\libraries\Mysql.php on line 799 
+Backtrace[0]: (function) get_error : E:\htdocs\Red\libraries\Mysql.php on line 330 
+Backtrace[1]: (function) query : E:\htdocs\Red\libraries\Mysql.php on line 182 
+Backtrace[2]: (function) select_all : E:\htdocs\Red\libraries\Mysql.php on line 209 
+Backtrace[3]: (function) select_row : E:\htdocs\Red\controller\Test.php on line 21 
+Backtrace[4]: (function) actionIndex : E:\htdocs\Red\index.php on line 96 

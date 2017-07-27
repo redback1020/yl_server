@@ -1,0 +1,85 @@
+====================================================================================================
+
+====================================================================================================
+
+====================================================================================================
+
+====================================================================================================
+
+====================================================================================================
+
+====================================================================================================
+
+====================================================================================================
+
+====================================================================================================
+2017-06-22 14:40:36 843832
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Cannot use object of type Class_Response as array in /Users/redback/Documents/MAMP PRO/red/core/Exceptions.php on line 50 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[2]: (function) trigger_error : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[3]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 14:42:16 995561
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Cannot use object of type Class_Response as array in /Users/redback/Documents/MAMP PRO/red/core/Exceptions.php on line 50 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[2]: (function) trigger_error : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[3]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 14:42:58 961899
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Cannot use object of type Class_Response as array in /Users/redback/Documents/MAMP PRO/red/core/Exceptions.php on line 48 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[2]: (function) trigger_error : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[3]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 14:45:46 82837
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Cannot use object of type Class_Response as array in /Users/redback/Documents/MAMP PRO/red/core/Exceptions.php on line 48 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[2]: (function) trigger_error : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[3]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 14:45:59 681728
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Cannot use object of type Class_Response as array in /Users/redback/Documents/MAMP PRO/red/core/Exceptions.php on line 48 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[2]: (function) trigger_error : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[3]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 14:48:26 595724
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+User Error : B00003 in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+====================================================================================================
+2017-06-22 14:49:03 435202
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : Cannot use object of type Class_Response as array in /Users/redback/Documents/MAMP PRO/red/core/Exceptions.php on line 49 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/index.php on line 21 
+Backtrace[2]: (function) trigger_error : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[3]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 14:49:40 194612
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+User Error : B00003 in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 14:51:48 603149
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+User Error : B00003 in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 
+====================================================================================================
+2017-06-22 14:57:01 884145
+URL:/red/index.php/aaa/sss/-/8?a=1&rrr=3?sss=444
+POST:
+error : B00003 in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 56 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 35 

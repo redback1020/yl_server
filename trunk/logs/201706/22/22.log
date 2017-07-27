@@ -1,0 +1,92 @@
+====================================================================================================
+2017-06-22 22:15:36 899101
+URL:/red/index.php/a/dd/cc/?a=1&rrr=3&ss?s=444
+POST:
+CODE : B00002
+User Error : System Error. Unknown ErrorCode. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 34 
+====================================================================================================
+2017-06-22 22:16:55 441642
+URL:/red/index.php/a/dd/cc/?a=1&rrr=3&ss?s=444
+POST:
+CODE : B00005
+User Error : System Error. Unknown Controller Name. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 34 
+====================================================================================================
+2017-06-22 22:32:04 47254
+URL:/red/index.php/a/dd/cc/?a=1&rrr=3&ss?s=444
+POST:
+CODE : B00005
+User Error : Unknown Router Rule. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+====================================================================================================
+2017-06-22 22:32:13 757754
+URL:/red/index.php/a/Test/Index/?a=1&rrr=3&ss?s=444
+POST:
+CODE : B00005
+User Error : Unknown Router Rule. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+====================================================================================================
+2017-06-22 22:32:20 45602
+URL:/red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00005
+User Error : Unknown Router Rule. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+====================================================================================================
+2017-06-22 22:32:59 384808
+URL:/red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00005
+User Error : Unknown Router Rule. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 38 
+====================================================================================================
+2017-06-22 22:33:20 885858
+URL:/red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00005
+User Error : Unknown Router Rule. in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/red/index.php on line 39 
+====================================================================================================
+2017-06-22 22:34:08 74872
+URL:/Red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00005
+User Error : Unknown Router Rule. in /Users/redback/Documents/MAMP PRO/Red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/Red/index.php on line 39 
+====================================================================================================
+2017-06-22 22:42:13 146606
+URL:/Red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00005
+User Error : Unknown Router Rule. in /Users/redback/Documents/MAMP PRO/Red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/Red/index.php on line 38 
+====================================================================================================
+2017-06-22 22:46:52 380562
+URL:/Red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00001
+User Error : System Error. in /Users/redback/Documents/MAMP PRO/Red/core/Response.php on line 65 
+Backtrace[0]: (function) send_error_code : /Users/redback/Documents/MAMP PRO/Red/core/Exceptions.php on line 38 
+Backtrace[1]: (function) exception_handler : /Users/redback/Documents/MAMP PRO/Red/index.php on line 63 
+====================================================================================================
+2017-06-22 22:49:34 538348
+URL:/Red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00001
+8192 : Non-static method ctr_Test::actionIndex() should not be called statically in /Users/redback/Documents/MAMP PRO/Red/index.php on line 59 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/Red/index.php on line 59 
+====================================================================================================
+2017-06-22 22:50:55 10502
+URL:/Red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00001
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/Red/index.php on line 62 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/Red/index.php on line 62 
+====================================================================================================
+2017-06-22 22:52:44 465721
+URL:/Red/index.php/a/Test/Index/?a=1&rrr=3&ss
+POST:
+CODE : B00001
+Notice : Undefined variable: a in /Users/redback/Documents/MAMP PRO/Red/index.php on line 62 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/Red/index.php on line 62 

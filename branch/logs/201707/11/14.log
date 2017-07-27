@@ -1,0 +1,45 @@
+====================================================================================================
+2017-07-11 14:03:32 44483
+URL:/index.php/2144/Common/Version
+POST:
+CODE : B00013
+User Error : Bad Request. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 124 
+Backtrace[1]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 76 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 14:38:10 637994
+URL:/index.php/2144/Common/GetRequestId
+POST:
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 141 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Common.php on line 9 
+Backtrace[2]: (function) actionGetRequestId : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 14:38:25 835737
+URL:/index.php/2144/Common/GetRequestId
+POST:sign=a6abb9a4205d1271bf14e4f0c19404ee6594d4e979bd09b1742da8eeb66b17bf
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 149 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Common.php on line 9 
+Backtrace[2]: (function) actionGetRequestId : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 14:38:26 80483
+URL:/index.php/2144/Common/GetRequestId
+POST:sign=a6abb9a4205d1271bf14e4f0c19404ee6594d4e979bd09b1742da8eeb66b17bf
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 149 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Common.php on line 9 
+Backtrace[2]: (function) actionGetRequestId : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-11 14:38:27 861318
+URL:/index.php/2144/Common/GetRequestId
+POST:sign=a6abb9a4205d1271bf14e4f0c19404ee6594d4e979bd09b1742da8eeb66b17bf
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 149 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Common.php on line 9 
+Backtrace[2]: (function) actionGetRequestId : E:\htdocs\yl_server\branch\index.php on line 76 

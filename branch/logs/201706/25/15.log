@@ -1,0 +1,54 @@
+====================================================================================================
+2017-06-25 15:13:33 4453
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Notice : Undefined variable: aaa in /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 9 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 9 
+Backtrace[1]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 15:15:04 25686
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00007
+User Error : Unable To Parse Output Content in /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 86 
+Backtrace[0]: (function) show_error_code : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 38 
+Backtrace[1]: (function) format_send_data : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 111 
+Backtrace[2]: (function) show_success : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 10 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 15:16:42 561295
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Notice : Undefined variable: aaa in /Users/redback/Documents/MAMP PRO/red/a.php on line 3 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/a.php on line 3 
+Backtrace[1]: (function) include : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 101 
+Backtrace[2]: (function) show_success : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 10 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 15:17:10 196211
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Notice : Undefined variable: aaa in /Users/redback/Documents/MAMP PRO/red/a.php on line 3 
+Backtrace[0]: (function) error_handler : /Users/redback/Documents/MAMP PRO/red/a.php on line 3 
+Backtrace[1]: (function) include : /Users/redback/Documents/MAMP PRO/red/core/Response.php on line 101 
+Backtrace[2]: (function) show_success : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 10 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 15:27:47 738945
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Error : syntax error, unexpected '<', expecting end of file in /Users/redback/Documents/MAMP PRO/red/core/Response.php(100) : eval()'d code on line 1 
+Backtrace[0]: (function) show_success : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 10 
+Backtrace[1]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 15:30:32 55401
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Error : syntax error, unexpected '<', expecting end of file in /Users/redback/Documents/MAMP PRO/red/core/Response.php(101) : eval()'d code on line 1 
+Backtrace[0]: (function) show_success : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 10 
+Backtrace[1]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 

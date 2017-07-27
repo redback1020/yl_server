@@ -1,0 +1,94 @@
+====================================================================================================
+2017-07-05 18:39:43 25437
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 132 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Auth.php on line 11 
+Backtrace[2]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:43:02 445438
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789
+CODE : B00012
+User Error : Signature Error. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Base.php on line 132 
+Backtrace[1]: (function) check_sign : E:\htdocs\yl_server\branch\controller\Auth.php on line 11 
+Backtrace[2]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:43:20 890457
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUxNDAwIn0.WyJiMGU5Mzg0NzgwOThkZTAwMzVhZjA3ZTVjYWQ4NjVkNzU5NWNjMmM4ZDdiYjE4LjYzNjIxMzIzIl0.OTdlN2RhZTQ4YTdjNGE4ZTMwMDM2ODI2NTE3Mzc4ZDZmOGY5YTc2Y2U4ZmJlMDJjMDI4ZDU3MDM2MDYxNzQ3Mg&sign=9888b2bfbe7c1e9147d69b799c185abf3a1a997982d3a66c64428bddac469b72
+CODE : B00001
+Error : Class 'Memcache' not found in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 19 
+Backtrace[0]: (function) get_memcache : E:\htdocs\yl_server\branch\libraries\MemLock.php on line 52 
+Backtrace[1]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 115 
+Backtrace[2]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:43:56 398784
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUxNDM2In0.WyJhMWI2YjA5MWVkMTdjMTE0M2UzMzU0M2Y0ZWYyMjMxYzU5NWNjMmVjNWZhYzA2LjE0NTQ2NDY4Il0.OWU0YmE2NDNiODM1NWM4ZTY0NmY1OTNlZDNlY2U4YTRlYmUyMjNlYmIyNGExNThhYmU4NWI2MDFhMGYxMjlmYQ&sign=d645567f9dc51f6f171b8efa4e864909c9cd22796bfb5f133766ff9bf1d36c5c
+CODE : B00001
+Error : Class 'Memcached' not found in E:\htdocs\yl_server\branch\libraries\MemLock.php on line 19 
+Backtrace[0]: (function) get_memcache : E:\htdocs\yl_server\branch\libraries\MemLock.php on line 52 
+Backtrace[1]: (function) check_lock : E:\htdocs\yl_server\branch\core\Base.php on line 115 
+Backtrace[2]: (function) check_request : E:\htdocs\yl_server\branch\core\Base.php on line 75 
+Backtrace[3]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:51:24 398652
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUxODg0In0.WyJkODg1Yzg1NjA4NWZjYTgzMzhiMmQxOGRlOTkxMzBjOTU5NWNjNGFjNWQ4NDQ4LjI2OTMyNzI3Il0.NmVlMTFiNDRiZDQ1ZDI3ZDAzYzI0NGNmODJlMTFhNGUwNDk5YjUyNDk3ZjhlZGRmN2RiNGY1ZDdkYTE1OTViZA&sign=4ea52ba3a508166e1ddc283d3eee98a7d6aa779752c16f640c96401f68970215
+CODE : C00001
+User Error : 无效的用户名格式 in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 18 
+Backtrace[1]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:52:07 741535
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUxOTI3In0.WyI1NDFhNjk3OGE5M2ZjYjUyYzhjMGRiMzg4MzBkZmIzMjU5NWNjNGQ3YjNhMDUxLjU5ODk5Mzc0Il0.MmVkOTU4MGRlYzJhZmYzYjVmNTkxZGE5OGMyOTQ0Y2IwNDgyMTgwMmEwOTcwYWU3ZmRjNmI0ZTIyZGU0MWZhNw&sign=b5ef577b9cc1c085dcd7dfe50af34c182aa5911e98010c9fd28d8e1857a0df6b
+CODE : B00015
+User Error : Unfinish Process. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 45 
+Backtrace[1]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:53:04 308394
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUxOTg0In0.WyJhMjRiZjBhOTE2ODZjZDJlNTcxODIzNDMzNDc4MzA3ZTU5NWNjNTEwNDc4YTM1LjkyNDc2Mjc0Il0.YzkyMTQ0ZGIxOTNkYjNhMTlkMzEzYzg2YzBiMDA3ZmI4MDY1OWIyZTM2ZmVlNmE0ZWMyNWQ1NGFmMjc2YTMzMw&sign=98b09888cf2300beda5741112b908485bf8ccbd42d99e3aab41d7d8bed1d6ffb
+CODE : B00015
+User Error : Unfinish Process. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 45 
+Backtrace[1]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:53:25 763847
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUyMDA1In0.WyJiMTdjZjYzMmM5ZTZmNzZkY2MyNmJkOTVkMzE5YzQyZTU5NWNjNTI1YjkwNzQwLjEyNjY2OTQ2Il0.Y2FiYWE5ZmYyYTJjZjRkZWM4YzdiMmZlMWVmNWU2ZmYwN2E1MmNmYmNkMTEzYTJiMzIyNjhmNWFhMWIyZmU1Zg&sign=26117def55513afbd811f680b622024dd5ed4df3655b2d1e1473874ef3ce35aa
+CODE : B00015
+User Error : Unfinish Process. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 45 
+Backtrace[1]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:53:39 620018
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUyMDE5In0.WyIwMzhiNjQ2ODBlOWU4MDk2NWExMzZmMjRiMTk3NzU1ODU5NWNjNTMzOTVjNjk1LjM0ODIyMjQ5Il0.YjMwZTI5YTYwOWViOWY5NTY0MjdmZDY2MTdiZDRlNTBkYTRiY2RkNGZhYTViZGM5NDA3MjMxZDBkZTNlMGVkMQ&sign=ea1b45da0b4d43c678132f94f86fc8ba1f423a3cf82698bd4fb9112e65b958a6
+CODE : B00015
+User Error : Unfinish Process. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 45 
+Backtrace[1]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:58:38 949192
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUyMzE4In0.WyJlMjExZjgzYjM1YzlhYjAwNzBmNzdiNmJmN2ZhY2RhZjU5NWNjNjVlZTQxYmUzLjcyNDE5NzY4Il0.ODY5NzNjNDYxMTAwODdhNzY3NjJkNWVmYjFiYjQ3YmE3OTY5OTZkMjAyZTY0NjZhOTM0MGE1MDkwMDQ1NWQyMA&sign=338c55e4073c9aa1f68239dbdc22e4046030442123a24a018994f20434e4899e
+CODE : C00003
+User Error : 账号用户名已存在 in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 28 
+Backtrace[1]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-05 18:59:50 508458
+URL:/index.php/2144/Auth/Register
+POST:username=648125653%40qq.com&password=123456789&request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5MjUyMzkwIn0.WyI3ODA3ZWFlZmE4ZGE0ZjM0YWRjYjk1ODdjMTc3ZjBlMzU5NWNjNmE2N2E4MDA4LjkxMjMzNTY2Il0.ZmY5NjAxZmEzYTkyYWFlNjAzMGE5OGJkOWViOWEwNDdjN2VkM2ZmZTQxZDQxNTdmZDE5MGEwODNhNjkzZGNlNg&sign=35e0d14b87a2b583fb8304b1d90d83634cc5f916440625b123c7b8764e8af946
+CODE : C00003
+User Error : 账号用户名已存在 in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 28 
+Backtrace[1]: (function) actionRegister : E:\htdocs\yl_server\branch\index.php on line 76 

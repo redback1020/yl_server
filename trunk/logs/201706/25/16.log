@@ -1,0 +1,83 @@
+====================================================================================================
+2017-06-25 16:21:16 211127
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+Mysql Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"Tickets64"' at line 1 : SELECT "a" FROM "Tickets64" in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 538 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 173 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 49 
+Backtrace[2]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 22 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 16:32:08 839658
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+SUB INFO :  SELECT "a" FROM "Tickets64"
+Mysql Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"Tickets64"' at line 1  in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 538 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 173 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 49 
+Backtrace[2]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 22 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 16:37:14 849588
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+SUB INFO :  SELECT `a` FROM `Tickets64`
+Mysql Error : Unknown column 'a' in 'field list'  in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 538 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 173 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 49 
+Backtrace[2]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 22 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 16:37:21 333594
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+SUB INFO :  SELECT `a` FROM `Tickets64`
+Mysql Error : Unknown column 'a' in 'field list'  in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 538 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 173 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 49 
+Backtrace[2]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 22 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 16:41:32 707108
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+SUB INFO :  SELECT `a` FROM `Tickets64`
+Mysql Error : Unknown column 'a' in 'field list'  in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 544 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 179 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[2]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 22 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 16:41:51 80286
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Error : Call to a member function fetch_assoc() on string in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 61 
+Backtrace[0]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 22 
+Backtrace[1]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 16:45:23 415416
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Warning : array_push() expects parameter 1 to be array, null given in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 175 
+Backtrace[1]: (function) array_push : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 175 
+Backtrace[2]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[3]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 22 
+Backtrace[4]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 16:46:29 983966
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+SUB INFO :  SELECT `a` FROM `Tickets64`
+Mysql Error : Unknown column 'a' in 'field list'  in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 543 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 178 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[2]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 22 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 

@@ -1,0 +1,43 @@
+====================================================================================================
+2017-07-13 11:02:44 348276
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5OTE0OTY0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZmQ4MGQ3MmZhYTgxOWFkMTJkODAwYWIzZWFiNmYyOWQ&role_ids=&sign=749c443bd9339073ecad5774f34a93c2&team_id=2&trump_ids=||17|44
+CODE : B00001
+Notice : Undefined variable: update_role_ids in E:\htdocs\yl_server\branch\controller\Team.php on line 17 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Team.php on line 17 
+Backtrace[1]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-13 11:03:27 95901
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5OTE1MDA3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZTg1YzlmMDI2NWUxNTNlZTk5YzU0NWU1ZjgxMTk5ZmM&role_ids=44|33|22&sign=346e6d8a2a338227e3eb66c2787a0714&team_id=2&trump_ids=||17|44
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\model\Team.php on line 34 
+Backtrace[1]: (function) set_team : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 15 
+Backtrace[3]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-13 11:17:27 352049
+URL:/index.php/2144/Team/SetMainTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5OTE1ODQ3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NzRlY2Q3NTRmYjI3NzA3ZjNhZGMxYmQ5ZmJmOTEwZmE&is_main=1&sign=2e1b907839be372ab5217adf4eecd538&team_id=2
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 74 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 30 
+Backtrace[2]: (function) actionSetMainTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-13 11:57:18 174399
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in E:\htdocs\yl_server\branch\core\Model.php on line 77 
+====================================================================================================
+2017-07-13 11:58:41 269053
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index:  in E:\htdocs\yl_server\branch\model\Team.php on line 263 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Team.php on line 263 
+Backtrace[1]: (function) init_team_name : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

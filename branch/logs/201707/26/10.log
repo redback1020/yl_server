@@ -1,0 +1,60 @@
+====================================================================================================
+2017-07-26 10:50:42 69491
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDM3NDQyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZjExZDc1NjYyMjlkZjU2NDVmZjIwZTBhMjcwM2Y5ZTY&goods_id=4&num=1&sign=b92a2dca1118347c9b995ac7329f5b72
+CODE : B00001
+Error : 法器总数量 96 新增 20 >= 上限100 in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 21 
+Backtrace[1]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 114 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-26 10:51:07 390465
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDM3NDY3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MmZkMWNlZWRiMjJhY2QyZjI4YzAxMGQ5YWE5ODhiMWM&goods_id=4&num=1&sign=6de16bd8933af9500fc0acd6fac3a2a4
+CODE : B00001
+Error : 法器总数量 96 新增 20 >= 上限100 in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 21 
+Backtrace[1]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 114 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-26 10:51:30 640399
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDM3NDkwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NTBkNDU4MWY5N2NlM2ZlZWJmNTgxZDljMTJmNTFlNTY&goods_id=4&num=1&sign=ff6943216f5bb69d002c51db177df9a9
+CODE : B00001
+Error : 法器总数量 96 新增 20 >= 上限100 in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 21 
+Backtrace[1]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 114 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-26 10:51:59 644582
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDM3NTE5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YTVmZjViMDljZjgyM2EzOGE4Njg4OGM1ZmY3MGJkZDQ&goods_id=4&num=1&sign=1d269f23cd3f9f2fe5433587e5be8cbe
+CODE : B00001
+Error : 法器总数量 96 新增 20 >= 上限100 in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 21 
+Backtrace[1]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 114 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-26 10:53:59 60683
+URL:/index.php/2144/Store/BuyGoods
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMDM3NjM4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.Njk4ODM3YmYzNmMxZTdhYzA1NDNkOTg2MWRmYjY2NTI&goods_id=4&num=1&sign=8eca2e09cc09c1adb5737ecea26f196e
+CODE : B00001
+Error : 法器总数量 96 新增 10 >= 上限100 in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 21 
+Backtrace[1]: (function) _add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Store.php on line 114 
+Backtrace[3]: (function) _buy_goods : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Store.php on line 14 
+Backtrace[5]: (function) actionBuyGoods : E:\htdocs\yl_server\branch\index.php on line 76 

@@ -1,0 +1,9 @@
+====================================================================================================
+2017-07-06 18:06:41 443414
+URL:/
+POST:data=
+CODE : B00004
+User Error : Request Uri Is Not valid. in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Router.php on line 42 
+Backtrace[1]: (function) parse_request_url : E:\htdocs\yl_server\branch\core\Router.php on line 90 
+Backtrace[2]: (function) get_parse_url : E:\htdocs\yl_server\branch\index.php on line 41 

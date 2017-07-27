@@ -1,0 +1,45 @@
+====================================================================================================
+2017-07-12 10:17:17 736296
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined property: mod_Build::$static in E:\htdocs\yl_server\branch\model\Build.php on line 8 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 8 
+Backtrace[1]: (function) add_build : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 10:55:41 234126
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 74 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 10:58:27 8105
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00012
+User Error : 没有该建筑蓝图 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 10:58:43 329341
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00012
+User Error : 没有该建筑蓝图 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 10:59:02 68093
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00012
+User Error : 没有该建筑蓝图 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

@@ -1,0 +1,81 @@
+====================================================================================================
+2017-07-10 11:03:58 369947
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Redis::hMget() expects exactly 2 parameters, 1 given in E:\htdocs\yl_server\branch\core\Redis.php on line 25 
+Backtrace[1]: (function) hMget : E:\htdocs\yl_server\branch\core\Redis.php on line 25 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 34 
+Backtrace[3]: (function) row : E:\htdocs\yl_server\branch\model\Static.php on line 17 
+Backtrace[4]: (function) all : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 11:06:34 841897
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Redis::hMget() expects exactly 2 parameters, 1 given in E:\htdocs\yl_server\branch\core\Redis.php on line 25 
+Backtrace[1]: (function) hMget : E:\htdocs\yl_server\branch\core\Redis.php on line 25 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 34 
+Backtrace[3]: (function) row : E:\htdocs\yl_server\branch\model\Static.php on line 17 
+Backtrace[4]: (function) all : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 11:06:35 680033
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Redis::hMget() expects exactly 2 parameters, 1 given in E:\htdocs\yl_server\branch\core\Redis.php on line 25 
+Backtrace[1]: (function) hMget : E:\htdocs\yl_server\branch\core\Redis.php on line 25 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Static.php on line 34 
+Backtrace[3]: (function) row : E:\htdocs\yl_server\branch\model\Static.php on line 17 
+Backtrace[4]: (function) all : E:\htdocs\yl_server\branch\controller\Test.php on line 59 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 11:28:36 3532
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : require_once(E:\htdocs\yl_server\branch\model/Model.php): failed to open stream: No such file or directory in E:\htdocs\yl_server\branch\core\Model.php on line 21 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 21 
+Backtrace[1]: (function) require_once : E:\htdocs\yl_server\branch\core\Model.php on line 21 
+Backtrace[2]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 19 
+Backtrace[3]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 11 
+Backtrace[4]: (function) __get : E:\htdocs\yl_server\branch\model\Trump.php on line 10 
+Backtrace[5]: (function) add_trump : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[6]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 11:30:22 81184
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in E:\htdocs\yl_server\branch\core\Model.php on line 22 
+Backtrace[0]: (function) load_class : E:\htdocs\yl_server\branch\core\Base.php on line 83 
+Backtrace[1]: (function) __construct : E:\htdocs\yl_server\branch\controller\Test.php on line 8 
+Backtrace[2]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 11:30:31 583878
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : require_once(E:\htdocs\yl_server\branch\model/Model.php): failed to open stream: No such file or directory in E:\htdocs\yl_server\branch\core\Model.php on line 22 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 22 
+Backtrace[1]: (function) require_once : E:\htdocs\yl_server\branch\core\Model.php on line 22 
+Backtrace[2]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 19 
+Backtrace[3]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 11 
+Backtrace[4]: (function) __get : E:\htdocs\yl_server\branch\model\Trump.php on line 10 
+Backtrace[5]: (function) add_trump : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[6]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-10 11:31:17 105379
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : require_once(E:\htdocs\yl_server\branch\model/Model.php): failed to open stream: No such file or directory in E:\htdocs\yl_server\branch\core\Model.php on line 21 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 21 
+Backtrace[1]: (function) require_once : E:\htdocs\yl_server\branch\core\Model.php on line 21 
+Backtrace[2]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 19 
+Backtrace[3]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 11 
+Backtrace[4]: (function) __get : E:\htdocs\yl_server\branch\model\Trump.php on line 10 
+Backtrace[5]: (function) add_trump : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[6]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

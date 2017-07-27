@@ -1,0 +1,9 @@
+====================================================================================================
+2017-07-05 19:01:04 251785
+URL:/index.php/2144/Async/SendForgetPwdMail
+POST:code=3BF719CA50F1DD8956EB51EF33F1C881&email=648125653%40qq.com&sign=f62d4161602d64b0dcedc2b1f163cc29d5b05323248296f9ac83051c5a9a8875
+CODE : B00001
+Warning : Missing argument 1 for Core_Response::show_error_code(), called in E:\htdocs\yl_server\branch\controller\Async.php on line 49 and defined in E:\htdocs\yl_server\branch\core\Response.php on line 88 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Response.php on line 88 
+Backtrace[1]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Async.php on line 49 
+Backtrace[2]: (function) actionSendForgetPwdMail : E:\htdocs\yl_server\branch\index.php on line 76 

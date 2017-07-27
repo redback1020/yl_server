@@ -1,0 +1,22 @@
+====================================================================================================
+2017-07-17 13:32:18 662659
+URL:/index.php/2144/Role/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjY5NTM4In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.YjJjODI1YjBlNzQ3ZGY0MDk2OGE3YzdhMTA0NWJlNWU&role_id=1&sign=563a64f5a2971e4fd5e9b55f327fc6c4
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Role.php on line 130 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 36 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-17 13:32:55 600295
+URL:/index.php/2144/Role/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMjY5NTc1In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZmIxMGY3ZWQwOGU5NzE5NjdlYTczMWFjNjYxYmY1OGM&role_id=1&sign=7d6cfb887dfa8a7480490db591128aac
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 155 
+Backtrace[1]: (function) _detract_item : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Role.php on line 157 
+Backtrace[3]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Role.php on line 36 
+Backtrace[5]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 

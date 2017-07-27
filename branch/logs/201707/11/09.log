@@ -1,0 +1,9 @@
+====================================================================================================
+2017-07-11 09:58:34 870011
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Missing argument 2 for mod_Trump::add_trump(), called in E:\htdocs\yl_server\branch\controller\Test.php on line 57 and defined in E:\htdocs\yl_server\branch\model\Trump.php on line 7 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Trump.php on line 7 
+Backtrace[1]: (function) add_trump : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

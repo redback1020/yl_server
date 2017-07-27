@@ -1,0 +1,15 @@
+====================================================================================================
+2017-07-06 15:19:25 22576
+URL:/index.php/2144/User/SetNickname
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&nickname=%E5%93%88%E5%93%88%E5%93%88&sign=41adf59245997917e9029eeef75014828446d61f3cf88b8cb4c43f71b3bedf74
+CODE : B00001
+Error : Method ctr_User::actionSetNickname() does not exist in E:\htdocs\yl_server\branch\index.php on line 68 
+Backtrace[0]: (function) __construct : E:\htdocs\yl_server\branch\index.php on line 68 
+====================================================================================================
+2017-07-06 15:26:36 607977
+URL:/index.php/2144/Auth/SetNickname
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5MzA5ODExIn0.eyJ1c2VyX2lkIjoiNzciLCJ1c2VybmFtZSI6IjY0ODEyNTY1M0BxcS5jb20ifQ.NDRjYmNlOTgwZDliOTRiZjVmMGE2ZmZhODRhNWI4YWE5NzIyYzZhNTc3NDhkOGIyZjdkMzBjM2Y3NThjYjBiYg&nickname=%E6%93%8D%E4%BD%A0%E5%A6%88&sign=457bc2f50fbdb6b8c03e5eafed999fbe619d8562d5b9d29cfc86f8b7d95a497e
+CODE : C00011
+User Error : 昵称最多6个字且不能包含敏感字 in E:\htdocs\yl_server\branch\core\Response.php on line 91 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\controller\Auth.php on line 298 
+Backtrace[1]: (function) actionSetNickname : E:\htdocs\yl_server\branch\index.php on line 76 

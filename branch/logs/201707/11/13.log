@@ -1,0 +1,8 @@
+====================================================================================================
+2017-07-11 13:57:09 273045
+URL:/index.php/2144/Common/Version
+POST:request_id=eyJleHAiOjQzMjAwLCJnZW4iOiIxNDk5NzUyNjI4In0.WyJhM2Q1OTNlOGNlYmU1YzMzMWUyMzJkNmY2ZjcxNGU3NzU5NjQ2OGI1MjhjNDE1LjE3NzQ4NjgwIl0.MTcyZmYwYjQxYzMxM2UwOWZkMWQyN2E2YWFiNTg4Zjc5OWI1NTIyNGY5M2Y3OGVjNTQzNGVkMmQzNWI2ZDg3ZQ
+CODE : B00001
+Error : Call to undefined method mod_Comm::load_database() in E:\htdocs\yl_server\branch\model\Comm.php on line 9 
+Backtrace[0]: (function) version : E:\htdocs\yl_server\branch\controller\Common.php on line 29 
+Backtrace[1]: (function) actionVersion : E:\htdocs\yl_server\branch\index.php on line 76 

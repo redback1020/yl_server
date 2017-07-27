@@ -1,0 +1,102 @@
+====================================================================================================
+2017-06-25 17:06:32 78092
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Warning : mysqli::real_escape_string() expects parameter 1 to be string, array given in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 524 
+Backtrace[1]: (function) real_escape_string : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 524 
+Backtrace[2]: (function) quote : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 510 
+Backtrace[3]: (function) array_quote : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 468 
+Backtrace[4]: (function) data_implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 264 
+Backtrace[5]: (function) where_clause : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 216 
+Backtrace[6]: (function) select_context : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[7]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 32 
+Backtrace[8]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 17:07:11 582953
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Warning : mysqli::real_escape_string() expects parameter 1 to be string, array given in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 525 
+Backtrace[1]: (function) real_escape_string : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 525 
+Backtrace[2]: (function) quote : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 510 
+Backtrace[3]: (function) array_quote : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 468 
+Backtrace[4]: (function) data_implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 264 
+Backtrace[5]: (function) where_clause : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 216 
+Backtrace[6]: (function) select_context : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[7]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 32 
+Backtrace[8]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 17:08:02 29981
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Notice : Array to string conversion in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 513 
+Backtrace[1]: (function) implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 513 
+Backtrace[2]: (function) array_quote : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 468 
+Backtrace[3]: (function) data_implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 264 
+Backtrace[4]: (function) where_clause : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 216 
+Backtrace[5]: (function) select_context : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[6]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 32 
+Backtrace[7]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 17:09:03 111837
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Notice : Array to string conversion in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 513 
+Backtrace[1]: (function) implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 513 
+Backtrace[2]: (function) array_quote : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 468 
+Backtrace[3]: (function) data_implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 264 
+Backtrace[4]: (function) where_clause : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 216 
+Backtrace[5]: (function) select_context : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[6]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 32 
+Backtrace[7]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 17:11:50 366969
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Notice : Array to string conversion in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 513 
+Backtrace[1]: (function) implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 513 
+Backtrace[2]: (function) array_quote : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 468 
+Backtrace[3]: (function) data_implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 264 
+Backtrace[4]: (function) where_clause : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 216 
+Backtrace[5]: (function) select_context : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[6]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 32 
+Backtrace[7]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 17:18:18 273541
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00001
+Notice : Array to string conversion in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 513 
+Backtrace[1]: (function) implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 513 
+Backtrace[2]: (function) array_quote : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 468 
+Backtrace[3]: (function) data_implode : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 264 
+Backtrace[4]: (function) where_clause : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 216 
+Backtrace[5]: (function) select_context : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 51 
+Backtrace[6]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 32 
+Backtrace[7]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 17:42:10 264217
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+SUB INFO :  SELECT * FROM `Tickets64` WHERE `bbb` LIKE [c]c
+Mysql Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[c]c' at line 1  in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 572 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 204 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 71 
+Backtrace[2]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 26 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 
+====================================================================================================
+2017-06-25 17:49:18 289693
+URL:/red/index.php/a/Test/Index/
+POST:
+CODE : B00006
+SUB INFO :  SELECT * FROM `Tickets64` WHERE `a` = 1 OR `b` = 1
+Mysql Error : Unknown column 'a' in 'where clause'  in /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 585 
+Backtrace[0]: (function) get_error : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 217 
+Backtrace[1]: (function) query : /Users/redback/Documents/MAMP PRO/red/libraries/Mysql.php on line 84 
+Backtrace[2]: (function) select : /Users/redback/Documents/MAMP PRO/red/controller/Test.php on line 25 
+Backtrace[3]: (function) actionIndex : /Users/redback/Documents/MAMP PRO/red/index.php on line 93 

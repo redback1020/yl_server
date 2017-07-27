@@ -1,0 +1,272 @@
+====================================================================================================
+2017-07-12 12:00:46 496175
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00012
+User Error : 没有该建筑蓝图 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:01:12 887958
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_build_base` (`user_id`, `build_id`, `build_type`, `build_level`, `last_take_time`, `position`, `createtime`) VALUES ('100', '13', '301', '1', '0', '-1,-1', '1499832072')
+Mysql Error : Out of range value for column 'build_type' at row 1  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\Build.php on line 54 
+Backtrace[3]: (function) add_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:02:22 895079
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 93 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 93 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:03:45 734929
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:01 759282
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:38 238487
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:40 282248
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:40 952022
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:41 101538
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:41 237977
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:41 382324
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:41 510784
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:41 63873
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:41 773992
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:41 901603
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:42 160358
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:04:42 317759
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:05:16 974916
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: build_type in E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 94 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:06:04 135695
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : syntax error, unexpected ')' in E:\htdocs\yl_server\branch\model\Build.php on line 85 
+Backtrace[0]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 18 
+Backtrace[1]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 11 
+Backtrace[2]: (function) __get : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:28:14 143137
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : syntax error, unexpected ')' in E:\htdocs\yl_server\branch\model\Build.php on line 85 
+Backtrace[0]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 18 
+Backtrace[1]: (function) __isset : E:\htdocs\yl_server\branch\core\Model.php on line 11 
+Backtrace[2]: (function) __get : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:29:30 90515
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_trump_base` (`user_id`, `trump_id`) VALUES ('100', '17')
+Mysql Error : Field 'createtime' doesn't have a default value  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\Trump.php on line 31 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:29:43 305273
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_trump_base` (`user_id`, `trump_id`) VALUES ('100', '17')
+Mysql Error : Field 'createtime' doesn't have a default value  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\Trump.php on line 31 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 12:30:26 893794
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined property: mod_Role::$static in E:\htdocs\yl_server\branch\model\Role.php on line 14 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Role.php on line 14 
+Backtrace[1]: (function) add_role : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 45 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 58 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

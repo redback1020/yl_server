@@ -1,0 +1,27 @@
+====================================================================================================
+2017-07-13 16:39:32 148938
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : array_multisort(): Argument #2 is expected to be an array or a sort flag in E:\htdocs\yl_server\branch\controller\Test.php on line 61 
+Backtrace[1]: (function) array_multisort : E:\htdocs\yl_server\branch\controller\Test.php on line 61 
+Backtrace[2]: (function) explain_condition : E:\htdocs\yl_server\branch\controller\Test.php on line 163 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-13 16:46:03 884197
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : array_multisort(): Argument #2 is expected to be an array or a sort flag in E:\htdocs\yl_server\branch\controller\Test.php on line 66 
+Backtrace[1]: (function) array_multisort : E:\htdocs\yl_server\branch\controller\Test.php on line 66 
+Backtrace[2]: (function) explain_condition : E:\htdocs\yl_server\branch\controller\Test.php on line 170 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-13 16:46:35 11115
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : array_multisort(): Argument #2 is expected to be an array or a sort flag in E:\htdocs\yl_server\branch\controller\Test.php on line 66 
+Backtrace[1]: (function) array_multisort : E:\htdocs\yl_server\branch\controller\Test.php on line 66 
+Backtrace[2]: (function) explain_condition : E:\htdocs\yl_server\branch\controller\Test.php on line 170 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

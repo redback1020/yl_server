@@ -1,0 +1,59 @@
+====================================================================================================
+2017-07-27 10:04:00 95346
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTIxMDQwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MDNmOWU0YmRlY2M3YjM2YjZkZGY1YTBkMmQyMWRlMGU&role_ids=1||&sign=a1645dd167a67bf7b55c83c44612d5a4&team_id=3&trump_uuids=||29|30
+CODE : C00023
+User Error : 存在战斗进程,无法执行该操作 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 82 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 19 
+Backtrace[2]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 10:04:22 885484
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTIxMDYyIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MjBlMTc5ZmQ3YWY4OWExOTY1Yjc5YzNlZjMzZTY1MmM&role_ids=1||&sign=51c60e0358a16ef807d66f4cdcbf30df&team_id=3&trump_uuids=||29|30
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Team.php on line 72 
+Backtrace[1]: (function) _set_team : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 19 
+Backtrace[3]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 10:06:12 259658
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTIxMTQ5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MGViY2YxZjM0OWUwYjhkODJjODdkYzUxNGE2ZWJjYTk&role_ids=1||&sign=1822c405b91cfa792831e6140edec760&team_id=3&trump_uuids=||29|30
+CODE : B00001
+Warning : mysqli::real_connect(): (HY000/2013): Lost connection to MySQL server at 'waiting for initial communication packet', system error: 10060 in E:\htdocs\yl_server\branch\core\DB.php on line 154 
+Backtrace[1]: (function) real_connect : E:\htdocs\yl_server\branch\core\DB.php on line 154 
+Backtrace[2]: (function) db_connect : E:\htdocs\yl_server\branch\core\Base.php on line 290 
+Backtrace[3]: (function) load_database : E:\htdocs\yl_server\branch\model\Battle.php on line 144 
+Backtrace[4]: (function) _get_battle_processing : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[5]: (function) __call : E:\htdocs\yl_server\branch\model\Team.php on line 10 
+Backtrace[6]: (function) _set_team : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[7]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 19 
+Backtrace[8]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 10:05:49 505164
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error : Maximum execution time of 30 seconds exceeded in E:\htdocs\yl_server\branch\controller\Test.php on line 192 
+====================================================================================================
+2017-07-27 10:15:57 945246
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTIxNzU3In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZDBhNDc1N2U5M2ZjNTg0MjRmNjQ2OTAyN2UwNGI0MWY&role_ids=1||&sign=44470bf3fdaf027699831e3a880f16e7&team_id=3&trump_uuids=||29|30
+CODE : B00001
+Notice : Undefined index: element in E:\htdocs\yl_server\branch\model\Team.php on line 90 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Team.php on line 90 
+Backtrace[1]: (function) _set_team : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 19 
+Backtrace[3]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-27 10:17:03 220891
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAxMTIxODIzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NjVmZDdlYzc3NWQ3NTliOWE3OWJhMDc1YjRmMGM3ZjI&role_ids=1||&sign=210629388ec97280d0c3d50078036b79&team_id=3&trump_uuids=||29|30
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Team.php on line 151 
+Backtrace[1]: (function) _set_team : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 19 
+Backtrace[3]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 

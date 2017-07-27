@@ -1,0 +1,22 @@
+====================================================================================================
+2017-07-25 12:27:16 549441
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: operation in E:\htdocs\yl_server\branch\core\Model.php on line 153 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 153 
+Backtrace[1]: (function) _check_confition : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 50 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 12:31:09 5364
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Missing argument 2 for Core_GameModel::_check_confition(), called in E:\htdocs\yl_server\branch\core\Model.php on line 79 and defined in E:\htdocs\yl_server\branch\core\Model.php on line 106 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 106 
+Backtrace[1]: (function) _check_confition : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\core\Model.php on line 171 
+Backtrace[3]: (function) _check_confition : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 50 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

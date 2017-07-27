@@ -1,0 +1,13 @@
+====================================================================================================
+2017-07-12 16:00:26 353228
+URL:/index.php/2144/Team/SetTeam
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNDk5ODQ2NDI2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZWI0YmE5ZTllNmYyNmExNWM3Y2FkZDI1NjIwMzg3MzY&role_ids=|1&sign=5f01c15b057157c3e3ea26dd1ba29f9d&team_id=1&trump_ids=||17|44
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_role_base` (`user_id`, `team_id`, `role_ids`, `trump_ids`) VALUES ('6', '1', ',1', ',,17,44')
+Mysql Error : Unknown column 'team_id' in 'field list'  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\Team.php on line 19 
+Backtrace[3]: (function) set_team : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Team.php on line 74 
+Backtrace[5]: (function) actionSetTeam : E:\htdocs\yl_server\branch\index.php on line 76 

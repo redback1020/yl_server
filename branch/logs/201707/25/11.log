@@ -1,0 +1,25 @@
+====================================================================================================
+2017-07-25 11:10:39 924181
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: condition_objs in E:\htdocs\yl_server\branch\core\Model.php on line 226 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 226 
+Backtrace[1]: (function) _condition_segment : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\core\Model.php on line 223 
+Backtrace[3]: (function) _condition_segment : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\core\Model.php on line 181 
+Backtrace[5]: (function) _explain_condition : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 48 
+Backtrace[7]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 11:17:37 42708
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Warning : Parameter 3 to Core_GameModel::_condition_segment() expected to be a reference, value given in E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\core\Model.php on line 182 
+Backtrace[2]: (function) _explain_condition : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[3]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 48 
+Backtrace[4]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

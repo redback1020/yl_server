@@ -1,0 +1,102 @@
+====================================================================================================
+2017-07-18 15:08:53 992124
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzYxNzMzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.OWVhNTliMWI0YzVlYTVkN2YxYmVlMWYzYzY1ZjA2YTc&merge_trump_uuids=51|52&sign=0446cb6d95a77d04e65c741b747462e9&trump_uuids=29
+CODE : B00001
+Warning : Illegal string offset 'trump_id' in E:\htdocs\yl_server\branch\model\Trump.php on line 165 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Trump.php on line 165 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 15:09:00 914328
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzYxNzQwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.ZGNlYTExNGMyMDllN2JhNDgwZWM2Njc2NmE3ZDc2NzQ&merge_trump_uuids=51|52&sign=d1a4ff42fc0aa9973aaa0b1aef6da474&trump_uuids=29
+CODE : B00001
+Warning : Illegal string offset 'trump_id' in E:\htdocs\yl_server\branch\model\Trump.php on line 165 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Trump.php on line 165 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 15:11:09 161185
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzYxODY5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.OGQwOGM2YTUzMTg5OWZhNzFhYmViZTM4NTU5MjA1MjE&merge_trump_uuids=51|52&sign=d0363496542555ae21c5a123e3d239f0&trump_uuids=29
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 168 
+Backtrace[1]: (function) _detract_item : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 182 
+Backtrace[3]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[5]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 15:14:59 538241
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzYyMDk5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.OGNjNTk1MTlmNjFlZWMxMjg1YWM4YTZjZThlY2UxYTY&merge_trump_uuids=51|52&sign=c1e625d1f93222d0b8224bbd0a465f1b&trump_uuids=29
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 168 
+Backtrace[1]: (function) _detract_item : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 182 
+Backtrace[3]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[5]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 15:17:34 21748
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzYyMjUzIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.N2M5NGE3NzhkMTM4MDlhM2RkOTU3Njk4ZGI0NDg4MGM&merge_trump_uuids=51|52&sign=c23e894e65ef7ac771c55e703281a5ee&trump_uuids=29
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 149 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 15:18:26 933053
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzYyMzA2In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MTBiMDc5YzBlNTBmOGZmMmMwYmEyMDEzNWJlOTg4ZWE&merge_trump_uuids=51|52&sign=b57a7f72b29b7b9852224006780ad8a2&trump_uuids=29
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 70 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\Trump.php on line 149 
+Backtrace[1]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[3]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 15:19:54 545637
+URL:/index.php/2144/Trump/Evolution
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwMzYyMzk0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NDdhYzk1YTNhYWRiNGJkNWI4YWQ2YjJjMjhlMjBiMDE&merge_trump_uuids=51|52&sign=7734b4eb6982315c4b59124174e88bdf&trump_uuids=29
+CODE : B00006
+SUB INFO :  UPDATE `user_role_base` SET `max_strengthen_level` = `max_strengthen_level` + 10, `evolution_level` = `evolution_level` + 1, `updatetime` = '1500362394' WHERE `user_id` = '6' AND `trump_uuid` = '29' AND `evolution_level` = '1' AND `updatetime` = '1500358251'
+Mysql Error : Unknown column 'trump_uuid' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 270 
+Backtrace[2]: (function) update : E:\htdocs\yl_server\branch\model\Trump.php on line 202 
+Backtrace[3]: (function) _evolution : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Trump.php on line 64 
+Backtrace[5]: (function) actionEvolution : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 15:41:51 859182
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  SELECT `equip_uuid`,`user_id`,`role_id`,`equip_id`,`equip_index`,`strengthen_exp`,`strengthen_level`,`updatetime` FROM `user_equip_base` WHERE `user_id` = 6 AND `equip_uuid` IN (2d95f52f-6b75-11e7-845d-484d7ecbc8b7)
+Mysql Error : Unknown column '2d95f52f' in 'where clause'  in E:\htdocs\yl_server\branch\core\DB.php on line 810 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 337 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 190 
+Backtrace[2]: (function) select_all : E:\htdocs\yl_server\branch\model\User.php on line 237 
+Backtrace[3]: (function) _get_equip : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\model\Team.php on line 298 
+Backtrace[5]: (function) _get_team_for_battle : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[6]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[7]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-18 15:43:39 659246
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: sub_skill_id2 in E:\htdocs\yl_server\branch\model\Team.php on line 377 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Team.php on line 377 
+Backtrace[1]: (function) _get_team_for_battle : E:\htdocs\yl_server\branch\core\Model.php on line 79 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 60 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

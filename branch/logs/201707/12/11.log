@@ -1,0 +1,184 @@
+====================================================================================================
+2017-07-12 11:06:04 25606
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00012
+User Error : 没有该建筑蓝图 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:06:59 577606
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00006
+SUB INFO :  INSERT  INTO `user_build_flag` (`user_id`, `build_type`, `createtime`) VALUES ('100', '101', '1499828819')
+Mysql Error : Field 'id' doesn't have a default value  in E:\htdocs\yl_server\branch\core\DB.php on line 809 
+Backtrace[0]: (function) get_error : E:\htdocs\yl_server\branch\core\DB.php on line 336 
+Backtrace[1]: (function) query : E:\htdocs\yl_server\branch\core\DB.php on line 317 
+Backtrace[2]: (function) insert : E:\htdocs\yl_server\branch\model\Build.php on line 117 
+Backtrace[3]: (function) add_build_flag : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:07:46 483021
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined offset: 1 in E:\htdocs\yl_server\branch\model\Build.php on line 38 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 38 
+Backtrace[1]: (function) add_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:09:18 696925
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00014
+User Error : 没有足够的建造资源 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:09:42 880026
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00014
+User Error : 没有足够的建造资源 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:09:43 647418
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00014
+User Error : 没有足够的建造资源 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:10:11 648987
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00014
+User Error : 没有足够的建造资源 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:10:33 393604
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined index: gold in E:\htdocs\yl_server\branch\model\Build.php on line 39 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 39 
+Backtrace[1]: (function) add_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:10:52 91846
+URL:/index.php/2144/Test/C
+POST:
+CODE : C00014
+User Error : 没有足够的建造资源 in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 81 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 57 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:22:02 145102
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Compile Error : Key element cannot be a reference in E:\htdocs\yl_server\branch\model\User.php on line 55 
+====================================================================================================
+2017-07-12 11:23:02 32619
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Compile Error : Key element cannot be a reference in E:\htdocs\yl_server\branch\model\User.php on line 55 
+====================================================================================================
+2017-07-12 11:23:18 39168
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Compile Error : Key element cannot be a reference in E:\htdocs\yl_server\branch\model\User.php on line 55 
+====================================================================================================
+2017-07-12 11:23:29 896223
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Backtrace[0]: (function)  :  on line 0 
+====================================================================================================
+2017-07-12 11:23:57 63778
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Compile Error : Key element cannot be a reference in E:\htdocs\yl_server\branch\model\User.php on line 55 
+====================================================================================================
+2017-07-12 11:25:33 8529
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Compile Error : Key element cannot be a reference in E:\htdocs\yl_server\branch\model\User.php on line 79 
+====================================================================================================
+2017-07-12 11:29:34 32831
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined property: mod_Trump::$static in E:\htdocs\yl_server\branch\model\Trump.php on line 10 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Trump.php on line 10 
+Backtrace[1]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:54:06 32192
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 74 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:54:19 247439
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 74 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:55:11 663057
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+User Error : System Error. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 74 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[2]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:57:00 15386
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined offset: 0 in E:\htdocs\yl_server\branch\model\Build.php on line 100 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 100 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-12 11:57:28 601422
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Notice : Undefined offset: 0 in E:\htdocs\yl_server\branch\model\Build.php on line 100 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\model\Build.php on line 100 
+Backtrace[1]: (function) get_build : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\model\Trump.php on line 17 
+Backtrace[3]: (function) add_trump : E:\htdocs\yl_server\branch\core\Model.php on line 77 
+Backtrace[4]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 56 
+Backtrace[5]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 

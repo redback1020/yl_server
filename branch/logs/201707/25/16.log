@@ -1,0 +1,32 @@
+====================================================================================================
+2017-07-25 16:54:59 591846
+URL:/index.php/2144/Battle/BattleFinish
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwOTcyODk5In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.MDczNzk0YmNiY2NjYTRkZjg3NjhmOWE0NGI2ZWNjZWY&sign=0c671f7db7085239f3abf79d9b2dce27
+CODE : B00001
+Error : Call to undefined method ctr_Battle::get_battle_processing() in E:\htdocs\yl_server\branch\controller\Battle.php on line 40 
+Backtrace[0]: (function) actionBattleFinish : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 16:55:40 621316
+URL:/index.php/2144/Battle/BattleFinish
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwOTcyOTQwIn0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.OTdiMGIxZWMzZWRjZjU3YTlhMzFlNGYwZTNmMTRkMTA&sign=c45774fec0fae6f139197348bc3cd599
+CODE : B00018
+User Error : Model Methon is Not Exist. in E:\htdocs\yl_server\branch\core\Response.php on line 89 
+Backtrace[0]: (function) show_error_code : E:\htdocs\yl_server\branch\core\Model.php on line 75 
+Backtrace[1]: (function) __call : E:\htdocs\yl_server\branch\controller\Battle.php on line 73 
+Backtrace[2]: (function) actionBattleFinish : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 16:56:35 959474
+URL:/index.php/2144/Async/GameLog
+POST:createtime=1500972995&num=100|100&obj_id=exp|soul&operation=plus&sign=5194072dc8fbc7aecb063aef6cfeaa6f&type=source&user_id=6&way=1
+CODE : B00001
+Notice : Undefined variable: obj_name in E:\htdocs\yl_server\branch\controller\Async.php on line 60 
+Backtrace[0]: (function) error_handler : E:\htdocs\yl_server\branch\controller\Async.php on line 60 
+Backtrace[1]: (function) actionGameLog : E:\htdocs\yl_server\branch\index.php on line 76 
+====================================================================================================
+2017-07-25 16:56:54 284487
+URL:/index.php/2144/Battle/BattleFinish
+POST:authtoken=eyJleHAiOjg2NDAwLCJnZW4iOiIxNTAwOTczMDE0In0.eyJ1c2VyX2lkIjoiNiIsInVzZXJuYW1lIjoiNjQ4MTI1NjUzQHFxLmNvbSIsInZlcnNpb24iOiIwMS4wMC4wMCJ9.NWRiY2VjMWEwN2Y0MjJlM2ZjYmQ2OGZkMjYxMzI4NDk&sign=38d28709aab54c133dd1c8b6e9b66d5f
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\controller\Battle.php on line 41 
+Backtrace[1]: (function) actionBattleFinish : E:\htdocs\yl_server\branch\index.php on line 76 

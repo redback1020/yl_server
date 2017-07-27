@@ -1,0 +1,10 @@
+====================================================================================================
+2017-07-25 18:28:57 184581
+URL:/index.php/2144/Test/C
+POST:
+CODE : B00001
+Error :  in E:\htdocs\yl_server\branch\core\Common.php on line 76 
+Backtrace[0]: (function) throw_exception : E:\htdocs\yl_server\branch\model\User.php on line 429 
+Backtrace[1]: (function) _set_map_event_id : E:\htdocs\yl_server\branch\core\Model.php on line 78 
+Backtrace[2]: (function) __call : E:\htdocs\yl_server\branch\controller\Test.php on line 48 
+Backtrace[3]: (function) actionC : E:\htdocs\yl_server\branch\index.php on line 76 
